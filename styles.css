@@ -169,7 +169,7 @@ body {
 .color-palette {
     display: flex;
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .color {
@@ -180,8 +180,7 @@ body {
 
 
 .footer-bottom {
-    margin-top: 3rem;
-    padding-top: 1rem;
+    margin-top: 2rem;
     font-size: 0.9rem;
     color: var(--text-secondary);
 }
