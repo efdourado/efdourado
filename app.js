@@ -1,3 +1,71 @@
+const translations = {
+    en: {
+        "showcase": "Showcase",
+        "about": "About me",
+        "send_message": "Get in touch",
+        "hello": "Hello,",
+        "im_eduardo": "I'm Eduardo Dourado;",
+        "bio": "a full-stack developer also really interested in AI and data. I'm focus on efficiency and seek a positive environment for everyone!",
+        
+        "showcase_title": "Selected Projects",
+        "showcase_subtitle": "A collection of my most exciting and key projects, showcasing my skills and efficiency.",
+        "view_case_study": "View Case Study →",
+        "project1_title": "Ordering System",
+        "project1_description": "Streamline your orders, browse, and receive updates effortlessly",
+        "project2_title": "Music Website",
+        "project2_description": "A model designed to inspire and support music creators",
+        "project3_title": "—",
+        "project3_description": "—",
+
+        "details_title": "Details",
+        "details_subtitle": "Here's a closer look at the tools and technologies I'm currently using to bring to life ideas. From frontend and backend integrations to data analysis, problem-solving and different design approaches.",
+        "skill1":"HTML, CSS, TypeScript and JavaScript; C and Python",
+        "skill2":"React and Next.js",
+        "skill3":"PostgreSQL, MongoDB and Neon",
+        "skill4":"Power BI and Excel; Git and Github",
+        "skill5":"UI/UX Design",
+        
+        "thank_you": "Thank You!",
+        "echoes": "Echoes find echoes;",
+        "footer_subtitle":"send me a message! Or drop your thoughts:",
+        "send_message_btn":"Send a Message",
+        "color_palette": "Color palette:",
+        "rights_reserved": "All rights reserved."
+    },
+    pt: {
+        "showcase": "Destaque",
+        "about": "Sobre mim",
+        "send_message": "Entre em contato",
+        "hello": "Olá,",
+        "im_eduardo": "Sou Eduardo Dourado;",
+        "bio": "desenvolvedor full-stack também muito interessado em IA e dados. Foco em eficiência e busco um ambiente positivo para todos!",
+        
+        "showcase_title": "Projetos Selecionados",   
+        "showcase_subtitle": "Uma coleção dos meus projetos mais importantes, mostrando minhas habilidades e eficiência.",
+        "view_case_study": "Ver Estudo de Caso →",
+        "project1_title": "Sistema de Pedidos",
+        "project1_description": "Simplifique seus pedidos, navegue e receba atualizações com facilidade",
+        "project2_title": "Site de Música",
+        "project2_description": "Um modelo projetado para inspirar e apoiar criadores de música",
+        "project3_title": "—",
+        "project3_description": "—",
+        
+        "details_title": "Detalhes",
+        "details_subtitle": "Aqui está uma visão mais detalhada das ferramentas e tecnologias que estou usando atualmente para dar vida às ideias. Desde integrações frontend e backend até análise de dados, resolução de problemas e diferentes abordagens de design.",
+        "skill1":"HTML, CSS, TypeScript e JavaScript; C e Python",
+        "skill2":"React e Next.js",
+        "skill3":"PostgreSQL, MongoDB e Neon",
+        "skill4":"Power BI e Excel; Git e Github",
+        "skill5":"UI/UX Design",
+        
+        "thank_you": "Obrigado!",
+        "echoes": "Ecos encontram ecos;",
+        "footer_subtitle":"envie-me uma mensagem! Ou compartilhe seus pensamentos:",
+        "send_message_btn":"Envie uma Mensagem",
+        "color_palette": "Paleta de cores:",
+        "rights_reserved": "Todos os direitos reservados."
+} };
+
 const themeToggle = document.querySelector('.theme-toggle');
 const html = document.documentElement;
 
@@ -26,3 +94,26 @@ window.addEventListener('scroll', () => {
     const scrollPercentage = (scrollPosition / scrollHeight) * 100;
     document.querySelector('.scroll-line').style.height = `${50 - (scrollPercentage * 0.5)}px`;
 });
+
+document.querySelectorAll('.language-selector button').forEach(button => {
+    button.addEventListener('click', () => {
+        const lang = button.dataset.lang;
+        switchLanguage(lang);
+}); });
+
+function switchLanguage(lang) {
+    document.querySelectorAll('.language-selector button').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+    
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+        const key = element.dataset.i18n;
+        if (translations[lang] && translations[lang][key]) {
+            element.textContent = translations[lang][key];
+    } });
+    
+    localStorage.setItem('language', lang);
+}
+
+const userLanguage = localStorage.getItem('language') || navigator.language.split('-')[0];
+switchLanguage(['en', 'pt'].includes(userLanguage) ? userLanguage : 'en');

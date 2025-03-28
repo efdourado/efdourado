@@ -32,6 +32,44 @@ body {
 
 /* ================================================================ */
 
+.language-selector {
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
+
+.language-selector button {
+    background: none;
+    border: 1px solid transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.3rem 1rem;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.language-selector button:hover {
+    color: var(--text);
+    border-color: var(--primary);
+    background-color: rgba(108, 99, 255, 0.1);
+}
+
+.language-selector button.active {
+    color: var(--primary);
+    border-color: var(--primary);
+    background-color: rgba(108, 99, 255, 0.1);
+}
+
+.language-selector button:focus {
+    outline: none;
+}
+
+
+/* ================================================================ */
+
 .floating-nav {
     position: fixed;
     top: 2rem;
@@ -140,7 +178,7 @@ body {
 
 .hero-scroll-indicator {
     position: absolute;
-    bottom: 2rem;
+    bottom: 0rem;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
