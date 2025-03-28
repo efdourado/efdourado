@@ -267,8 +267,68 @@ body {
 .skill-item:hover {
     background: var(--primary);
     color: white;
-    transform: translateY(-2px);
+    transform: scale(1.05);
 }
+
+/* ================================================================ */
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 3rem 2rem 1rem;
+    position: relative;
+    background: var(--surface);
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.footer-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: 1.1;
+    margin-bottom: 2rem;
+}
+.footer-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin-bottom: 3rem;
+}
+
+.footer-cta {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.color-palette {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+.footer-bottom {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+
+
+
 
 /* ================================================================ */
 
