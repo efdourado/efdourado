@@ -329,6 +329,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
+
 .skill-item {
     padding: 0.5rem 1rem;
     background: var(--surface);
@@ -351,7 +352,7 @@ body {
     .nav-links {
         gap: 1rem;
     }
-    
+
     .hero {
         padding-top: 10rem;
     }
