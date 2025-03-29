@@ -66,54 +66,71 @@ const translations = {
         "rights_reserved": "Todos os direitos reservados."
 } };
 
-const themeToggle = document.querySelector('.theme-toggle');
-const html = document.documentElement;
+document.addEventListener('DOMContentLoaded', function() {
+    const themeToggle = document.querySelector('.theme-toggle');
+    const html = document.documentElement;
 
-const currentTheme = localStorage.getItem('theme') || 'dark';
-html.setAttribute('data-theme', currentTheme);
-
-themeToggle.addEventListener('click', () => {
-    const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-    html.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    html.setAttribute('data-theme', currentTheme);
     
-    const icon = themeToggle.querySelector('i');
-    icon.className = newTheme === 'dark' ? 'fas fa-moon' : 'fas fa-sun';
-});
+    if (themeToggle) {
+        const icon = themeToggle.querySelector('i');
+        if (icon) {
+            icon.className = currentTheme === 'dark' ? 'fas fa-moon' : 'fas fa-sun';
+    } }
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-}); }); });
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            const icon = themeToggle.querySelector('i');
+            if (icon) {
+                icon.className = newTheme === 'dark' ? 'fas fa-moon' : 'fas fa-sun';
+    } }); }
 
-window.addEventListener('scroll', () => {
-    const scrollPosition = window.scrollY;
-    const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-    const scrollPercentage = (scrollPosition / scrollHeight) * 100;
-    document.querySelector('.scroll-line').style.height = `${50 - (scrollPercentage * 0.5)}px`;
-});
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth'
+    }); } }); });
 
-document.querySelectorAll('.language-selector button').forEach(button => {
-    button.addEventListener('click', () => {
-        const lang = button.dataset.lang;
-        switchLanguage(lang);
-}); });
-
-function switchLanguage(lang) {
-    document.querySelectorAll('.language-selector button').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.lang === lang);
-    });
-    
-    document.querySelectorAll('[data-i18n]').forEach(element => {
-        const key = element.dataset.i18n;
-        if (translations[lang] && translations[lang][key]) {
-            element.textContent = translations[lang][key];
+    window.addEventListener('scroll', () => {
+        const scrollLine = document.querySelector('.scroll-line');
+        if (scrollLine) {
+            const scrollPosition = window.scrollY;
+            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercentage = (scrollPosition / scrollHeight) * 100;
+            scrollLine.style.height = `${50 - (scrollPercentage * 0.5)}px`;
     } });
-    
-    localStorage.setItem('language', lang);
-}
 
-const userLanguage = localStorage.getItem('language') || navigator.language.split('-')[0];
-switchLanguage(['en', 'pt'].includes(userLanguage) ? userLanguage : 'en');
+    const languageToggle = document.querySelector('.language-toggle');
+    if (languageToggle) {
+        const languageText = languageToggle.querySelector('.language-text');
+        
+        const userLanguage = localStorage.getItem('language') || navigator.language.split('-')[0];
+        const defaultLanguage = ['en', 'pt'].includes(userLanguage) ? userLanguage : 'en';
+        if (languageText) languageText.textContent = defaultLanguage.toUpperCase();
+        switchLanguage(defaultLanguage);
+        
+        languageToggle.addEventListener('click', function() {
+            const currentLang = localStorage.getItem('language') || 'en';
+            const newLang = currentLang === 'en' ? 'pt' : 'en';
+            if (languageText) languageText.textContent = newLang.toUpperCase();
+            switchLanguage(newLang);
+        });
+    }
+
+    function switchLanguage(lang) {
+        localStorage.setItem('language', lang);
+        
+        if (typeof translations !== 'undefined') {
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.dataset.i18n;
+                if (translations[lang] && translations[lang][key]) {
+                    element.textContent = translations[lang][key];
+} }); } } });
