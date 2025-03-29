@@ -99,6 +99,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     behavior: 'smooth'
     }); } }); });
 
+    document.getElementById('scrollToTop').addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+    }); });
+    
     window.addEventListener('scroll', () => {
         const scrollLine = document.querySelector('.scroll-line');
         if (scrollLine) {
