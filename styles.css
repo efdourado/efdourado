@@ -56,12 +56,11 @@ body {
     font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-right: auto;
 }
 
 .nav-links {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    justify-content: center;
     display: flex;
     gap: 1.5rem;
 }
@@ -79,6 +78,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    margin-left: auto;
 }
 
 .theme-toggle {
