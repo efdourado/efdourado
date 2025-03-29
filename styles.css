@@ -73,18 +73,12 @@ body {
     color: var(--text);
 }
 
-
-
-
-
 .nav-actions {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     flex-shrink: 0;
 }
-
-
 
 .theme-toggle {
     background: none;
@@ -351,6 +345,15 @@ body {
     }
     .nav-links {
         gap: 1rem;
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        justify-content: flex-start;
+    }
+    .nav-links::-webkit-scrollbar {
+        display: none;
     }
 
     .hero {
