@@ -107,6 +107,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
+  white-space: nowrap;
 }
 .nav-actions {
   flex: 1;
@@ -349,6 +350,10 @@ body {
 @media (max-width: 768px) {
   .floating-nav {
     padding: 0.8rem 1rem;
+  }
+
+  .nav-left {
+    flex: 0.2;
   }
 
   .nav-links {
