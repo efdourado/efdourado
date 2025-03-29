@@ -177,7 +177,7 @@ body {
 
 .scroll-indicator {
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -370,6 +370,10 @@ body {
 
   .hero {
     padding-top: 10rem;
+  }
+
+  .scroll-indicator {
+    bottom: 2rem;
   }
 
   .cta-group {
