@@ -38,7 +38,7 @@ const translations = {
         "send_message": "Entre em contato",
         "hello": "Olá,",
         "im_eduardo": "Sou Eduardo Dourado;",
-        "bio": "um estudante muito interessado em IA, desenvolvimento full-stack e análise de dados. Foco em eficiência e busco um ambiente positivo para todos!",
+        "bio": "um estudante muito interessado em IA, desenvolvimento full-stack e ciência de dados. Foco em eficiência e busco um ambiente positivo para todos!",
         
         "showcase_title": "Projetos Selecionados",   
         "showcase_subtitle": "Uma coleção dos meus projetos mais importantes, mostrando minhas habilidades e eficiência.",
