@@ -5,7 +5,7 @@ const translations = {
         "send_message": "Get in touch",
         "hello": "Hello,",
         "im_eduardo": "I'm Eduardo Dourado;",
-        "bio": "a student really interested in AI, full-stack development and data analysis. I focus on efficiency and seek a positive environment for everyone!",
+        "bio": "a student really interested in AI, full-stack development and data science. I focus on efficiency and seek a positive environment for everyone!",
         
         "showcase_title": "Selected Projects",
         "showcase_subtitle": "A collection of my most exciting and key projects, showcasing my skills and efficiency.",
