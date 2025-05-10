@@ -3,7 +3,7 @@
 ### [portfolio](https://efdourado.github.io/efdourado)
 
 ### about
-ai, full-stack, data, problem-solving and study files (difficulty up to 3 stars (✦✦✦)).
+ai - full-stack - data - problem-solving and study files (difficulty up to 3 stars (✦✦✦)).
 
 ### selected projects (✦✦✦)
 - full-stack
@@ -12,5 +12,6 @@ ai, full-stack, data, problem-solving and study files (difficulty up to 3 stars 
     - **bel** —
 
 ### archived
+- 
 
 built for performance.
