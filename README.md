@@ -1,18 +1,25 @@
-## hi there 👋  
+## hi there 👋
 
-### [portfolio](https://efdourado.github.io/efdourado)  
+### [portfolio](https://efdourado.github.io/efdourado)
 
-### about  
-full-stack, data, problem-solving.  
+### about
+ai, full-stack, data, problem-solving.  
 
-### projects  
-- **echo** — music website
-- **donuts** — ordering app (next.js, neon, stripe)
-- **tasques** — task manager
-- **bel**
+### projects
+- ai
+    - study files
 
-- **powerbi-proj**
+- full-stack
+    - **echo** — music platform
+    - **donuts** — ordering system (stripe, tailwind)
+    - **tasques** — simple task manager
+    - **bel** — (python, django)
 
-- **c**
+- data
+    - **powerbi-proj**
+    - other study files
+
+- problem-solving
+    - **c**
 
 built for performance.
