@@ -1,4 +1,4 @@
-### hi there 👋
+# hi there 👋
 
 ### [portfolio (Eduardo Dourado)](https://efdourado.github.io/efdourado)
 
@@ -17,5 +17,7 @@ ai - full-stack - data - problem-solving and study files (difficulty up to 3 sta
 
 ### archived
 - 
+
+---
 
 built for performance.
