@@ -15,7 +15,7 @@
   --text-secondary: rgba(0, 0, 0, 0.8);
 }
 
-/* ============================================================ */
+
 
 * {
   margin: 0;
@@ -30,7 +30,14 @@ body {
   line-height: 1.6;
 }
 
-/* ============================================================ */
+a {
+  all: unset;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+
 
 .content-section {
   padding: 2rem;
@@ -78,7 +85,6 @@ body {
   transition: color 0.3s;
 }
 
-/* ============================================================ */
 
 .floating-nav {
   position: fixed;
@@ -157,7 +163,6 @@ body {
   gap: 0.5rem;
 }
 
-/* ============================================================ */
 
 .hero, .footer {
   display: flex;
@@ -193,7 +198,6 @@ body {
   margin-top: 0.5rem;
 }
 
-/* ============================================================ */
 
 .project-section {
   padding: 6rem 2rem;
@@ -205,11 +209,11 @@ body {
   text-align: center;
 }
 .section-header h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 .section-header p {
-    color: var(--text-secondary);
+  color: var(--text-secondary);
 }
 
 .project-grid {
@@ -267,12 +271,12 @@ body {
 }
 
 .project-info h3 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .project-info p {
   color: var(--text-secondary);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-size: 0.9rem;
 }
 
@@ -285,7 +289,6 @@ body {
   gap: 0.3rem;
 }
 
-/* ============================================================ */
 
 .skill-cloud {
   display: flex;
@@ -304,7 +307,6 @@ body {
   transition: all 0.3s ease;
 }
 
-/* ============================================================ */
 
 .gradient-text {
   background: var(--gradient);
@@ -330,7 +332,6 @@ body {
   color: var(--text-secondary);
 }
 
-/* ============================================================ */
 
 .nav-brand:hover, .language-toggle:hover, .cta-button:hover, .project-card:hover, .skill-item:hover {
   transform: scale(1.05);
@@ -345,7 +346,6 @@ body {
   color: white;
 }
 
-/* ============================================================ */
 
 @media (max-width: 768px) {
   .floating-nav {
