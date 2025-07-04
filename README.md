@@ -11,7 +11,8 @@ ai - full-stack - data - problem-solving and study files (difficulty up to 3 sta
 
 ### selected projects (✦✦✦)
 - full-stack (fs)
-    - [**memphis**](https://echo-trvw.onrender.com) — Music, reimagined — Echo is a web application designed to provide a seamless, modern music listening experience.
+    - [**memphis**](https://fs-memphis.onrender.com/) — Music, reimagined — Memphis is a web application designed to provide a seamless, modern music listening experience.
+    - [**cairo**](http://fs-cairo.vercel.app) —
 
 ---
 
