@@ -11,12 +11,12 @@ const translations = {
     showcase_subtitle:
       "A collection of my most exciting and key projects, showcasing my skills and efficiency.",
     case_study: "Case Study →",
-    project1_title: "Ordering System",
+    project1_title: "Memphis",
     project1_description:
-      "Streamline your orders, browse, and receive updates effortlessly",
-    project2_title: "Echo",
+      "Music, reimagined — Memphis is a web application designed to provide a seamless, modern music listening experience.",
+    project2_title: "Cairo",
     project2_description:
-      "Music, reimagined — Echo is a web application designed to provide a seamless, modern music listening experience.",
+      "Cairo is a fast, hassle-free ordering system that lets you browse menus, place orders, and manage your deliveries with just a few taps.",
     project3_title: "—",
     project3_description: "—",
 
@@ -48,12 +48,12 @@ const translations = {
     showcase_subtitle:
       "Uma coleção dos meus projetos mais importantes, mostrando minhas habilidades e eficiência.",
     case_study: "Estudo de Caso →",
-    project1_title: "Sistema de Pedidos",
+    project1_title: "Memphis",
     project1_description:
-      "Simplifique seus pedidos, navegue e receba atualizações com facilidade",
-    project2_title: "Echo",
+      "Música, reinventada — Memphis é um aplicativo web criado para oferecer uma experiência musical moderna e fluida.",
+    project2_title: "Cairo",
     project2_description:
-      "Música, reinventada — Echo é um aplicativo web criado para oferecer uma experiência musical moderna e fluida.",
+      "Cairo é um sistema de pedidos rápido e descomplicado que permite navegar por cardápios, fazer pedidos e gerenciar suas entregas com apenas alguns toques.",
     project3_title: "—",
     project3_description: "—",
 
