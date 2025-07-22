@@ -5,7 +5,7 @@ const translations = {
     send_message: "Get in touch",
     hello: "Hello,",
     im_eduardo: "I'm Eduardo Dourado;",
-    bio: "a student really interested in AI, full-stack development and data science. I focus on efficiency and seek a positive environment for everyone!",
+    bio: "a student really interested in AI and full-stack development. I focus on efficiency and seek a positive environment for everyone!",
 
     showcase_title: "Selected Projects",
     showcase_subtitle:
@@ -23,11 +23,13 @@ const translations = {
     details_title: "Details",
     details_subtitle:
       "Here's a closer look at the tools and technologies I'm currently using to bring to life ideas. From frontend and backend integrations to data analysis, problem-solving and different design approaches.",
-    skill1: "HTML, CSS, TypeScript and JavaScript; C and Python",
-    skill2: "React and Next.js",
-    skill3: "PostgreSQL, MongoDB and Neon",
-    skill4: "Power BI and Excel; Git and Github",
-    skill5: "UI/UX Design",
+    
+    skill1: "HTML, CSS",
+    skill2: "JavaScript (and TypeScript), Python",
+    skill3: "Django, React, Next.js, Prisma",
+    skill4: "PostgreSQL, MongoDB",
+    skill5: "Git, GitHub",
+    skill6: "UI/UX Design",
 
     thank_you: "Thank You!",
     echoes: "Echoes find echoes;",
@@ -42,7 +44,7 @@ const translations = {
     send_message: "Entre em contato",
     hello: "Olá,",
     im_eduardo: "Sou Eduardo Dourado;",
-    bio: "um estudante muito interessado em IA, desenvolvimento full-stack e ciência de dados. Foco em eficiência e busco um ambiente positivo para todos!",
+    bio: "um estudante muito interessado em IA e desenvolvimento full-stack. Foco em eficiência e busco um ambiente positivo para todos!",
 
     showcase_title: "Projetos Selecionados",
     showcase_subtitle:
@@ -60,11 +62,8 @@ const translations = {
     details_title: "Detalhes",
     details_subtitle:
       "Aqui está uma visão mais detalhada das ferramentas e tecnologias que estou usando atualmente para dar vida às ideias. Desde integrações frontend e backend até análise de dados, resolução de problemas e diferentes abordagens de design.",
-    skill1: "HTML, CSS, TypeScript e JavaScript; C e Python",
-    skill2: "React e Next.js",
-    skill3: "PostgreSQL, MongoDB e Neon",
-    skill4: "Power BI e Excel; Git e Github",
-    skill5: "UI/UX Design",
+    
+    skill2: "JavaScript (e TypeScript), Python",
 
     thank_you: "Obrigado!",
     echoes: "Ecos encontram ecos;",
