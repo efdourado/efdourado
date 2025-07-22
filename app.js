@@ -43,7 +43,7 @@ const translations = {
     about: "Sobre mim",
     send_message: "Entre em contato",
     hello: "Olá,",
-    im_eduardo: "Sou Eduardo Dourado;",
+    im_eduardo: "sou Eduardo Dourado;",
     bio: "um estudante muito interessado em IA e desenvolvimento full-stack. Foco em eficiência e busco um ambiente positivo para todos!",
 
     showcase_title: "Projetos Selecionados",
