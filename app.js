@@ -62,8 +62,13 @@ const translations = {
     details_title: "Detalhes",
     details_subtitle:
       "Aqui está uma visão mais detalhada das ferramentas e tecnologias que estou usando atualmente para dar vida às ideias. Desde integrações frontend e backend até análise de dados, resolução de problemas e diferentes abordagens de design.",
-    
+          
+    skill1: "HTML, CSS",
     skill2: "JavaScript (e TypeScript), Python",
+    skill3: "Django, React, Next.js, Prisma",
+    skill4: "PostgreSQL, MongoDB",
+    skill5: "Git, GitHub",
+    skill6: "UI/UX Design",
 
     thank_you: "Obrigado!",
     echoes: "Ecos encontram ecos;",
