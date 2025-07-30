@@ -16,7 +16,7 @@ ai - full-stack - problem-solving and study files (difficulty up to 3 stars (✦
 
 ---
 
-### archived
+### archives
 - 
 
 ---
