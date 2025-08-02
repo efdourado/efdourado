@@ -5,7 +5,7 @@
 ---
 
 ### about
-ai - full-stack - problem-solving and study files (Label: Personal, Freelance, Academic or Company & difficulty up to 3 stars (✦✦✦)).
+here you'll find ai - full-stack - problem-solving and study files (Label: Personal, Freelance, Academic or Company & difficulty up to 3 stars (✦✦✦)).
 
 ---
 
