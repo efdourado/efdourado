@@ -5,7 +5,7 @@
 ---
 
 ### about
-ai - full-stack - problem-solving and study files (difficulty up to 3 stars (✦✦✦)).
+ai - full-stack - problem-solving and study files (Personal || Freelance || Academic || Company && difficulty up to 3 stars (✦✦✦)).
 
 ---
 
