@@ -17,7 +17,8 @@ ai - full-stack - problem-solving and study files (Label: Personal, Freelance, A
 ---
 
 ### archives
-- 
+- [**api-rest**](https://github.com/efdourado/api-rest)
+- [**c**](https://github.com/efdourado/c) — problem-solving; C files
 
 ---
 
