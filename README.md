@@ -19,6 +19,7 @@ here you'll find ai - full-stack - problem-solving and study files (Label: Perso
 ### archives
 - [**api-rest**](https://github.com/efdourado/api-rest)
 - [**c**](https://github.com/efdourado/c) — problem-solving; C files
+- [**diferenciar-imagens**](https://github.com/efdourado/diferenciar-imagens)
 
 ---
 
