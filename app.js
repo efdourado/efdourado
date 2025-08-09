@@ -10,7 +10,7 @@ const translations = {
     showcase_title: "Selected Projects",
     showcase_subtitle:
       "A collection of my most exciting and key projects, showcasing my skills and efficiency.",
-    case_study: "Case Study →",
+    case_study: "View on GitHub",
     project1_title: "Memphis",
     project1_description:
       "Music, reimagined — Memphis is a web application designed to provide a seamless, modern music listening experience.",
@@ -49,7 +49,7 @@ const translations = {
     showcase_title: "Projetos Selecionados",
     showcase_subtitle:
       "Uma coleção dos meus projetos mais importantes, mostrando minhas habilidades e eficiência.",
-    case_study: "Estudo de Caso →",
+    case_study: "Ver no GitHub",
     project1_title: "Memphis",
     project1_description:
       "Música, reinventada — Memphis é um aplicativo web criado para oferecer uma experiência musical moderna e fluida.",
