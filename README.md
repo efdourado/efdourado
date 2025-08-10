@@ -5,13 +5,13 @@
 ---
 
 ### about
-here you'll find ai - full-stack - problem-solving and study files (Label: Personal, Freelance, Academic or Company & difficulty up to 3 stars (✦✦✦)).
+here you'll find ai — full-stack — problem-solving and study files (Label: Personal, Freelance, Academic or Company & difficulty up to 3 stars (✦✦✦)).
 
 ---
 
 ### selected projects (✦✦✦)
 - full-stack (fs)
-    - [**memphis**](https://fs-memphis.onrender.com) — Music, reimagined — Memphis is a web application designed to provide a seamless, modern music listening experience.
+    - [**memphis**](https://fs-memphis.onrender.com) — Music, reimagined. Memphis is a web app designed to provide a seamless, modern music listening experience.
     - [**cairo**](http://fs-cairo.vercel.app) — Cairo is a fast, hassle-free ordering system that lets you browse menus, place orders, and manage your deliveries  with just a few taps.
 
 ---
