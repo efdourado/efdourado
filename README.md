@@ -1,26 +1,30 @@
 # hi there 👋
 
-### [portfolio (Eduardo Dourado)](https://efdourado.github.io/efdourado)
+## [portfolio (Eduardo Dourado)](https://efdourado.github.io/efdourado)
 
 ---
 
-### about
-here you'll find ai — full-stack — problem-solving and study files (Label: Personal, Freelance, Academic or Company & difficulty up to 3 stars (✦✦✦)).
+## about
+here you'll find AI — Full-Stack — Problem-Solving and Study Files
 
 ---
 
-### selected projects (✦✦✦)
+## selected projects
+
 - full-stack (fs)
-    - [**memphis**](https://fs-memphis.onrender.com) — Music, reimagined. Memphis is a web app designed to provide a seamless, modern music listening experience.
-    - [**cairo**](http://fs-cairo.vercel.app) — Cairo is a fast, hassle-free ordering system that lets you browse menus, place orders, and manage your deliveries  with just a few taps.
+
+    - [**memphis**](https://fs-memphis.onrender.com) - Integrando conhecimento, cultura e prática, o Memphis é uma plataforma musical escalável e de fácil manutenção. Usei Node.js, Express e MongoDB em uma arquitetura em camadas (Services, DAOs, Controllers), containerização completa com Docker, autenticação JWT, painel administrativo e integração com o Spotify
 
 ---
 
-### archives
+## archives
+
 - [**api-rest**](https://github.com/efdourado/api-rest)
-- [**c**](https://github.com/efdourado/c) — problem-solving; C files
+
+- [**c**](https://github.com/efdourado/c) - problem-solving; C files
+
 - [**diferenciar-imagens**](https://github.com/efdourado/diferenciar-imagens)
 
 ---
 
-built for performance.
+### built for performance.
