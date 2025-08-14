@@ -5,7 +5,7 @@
 ---
 
 ## about
-here you'll find AI — Full-Stack — Problem-Solving and Study Files
+here you'll find ai - full-stack - problem-solving and study files
 
 ---
 
