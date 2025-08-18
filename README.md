@@ -15,7 +15,7 @@ here you'll find ai - full-stack - problem-solving and study files
 
     - [**memphis**](https://fs-memphis.onrender.com) - Integrando conhecimento, cultura e prática, o Memphis é uma plataforma musical escalável e de fácil manutenção. Usei Node.js, Express e MongoDB em uma arquitetura em camadas (Services, DAOs, Controllers), containerização completa com Docker, autenticação JWT, painel administrativo e integração com o Spotify
 
-    - [**cairo**](https://fs-cairo.vercel.app/) - Cairo é um sistema de pedidos de comida focado em velocidade e simplicidade, operando sobre uma API 100% RESTful. Segue boas práticas de design e arquitetura com Next.js + TypeScript, Prisma para ORM, Zod para validação tipada de dados e PostgreSQL como banco. Os pagamentos são processados via Stripe, garantindo agilidade e segurança
+    - [**cairo**](https://fs-cairo.vercel.app/) - Cairo é um sistema de pedidos de comida focado em velocidade e simplicidade, operando sobre uma API 100% RESTful. Segue boas práticas de design e arquitetura com Next.js + TypeScript, Prisma para ORM, Zod para validação tipada de dados, PostgreSQL como banco, e pagamentos processados via Stripe
 
 ---
 
