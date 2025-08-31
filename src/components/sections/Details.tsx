@@ -1,0 +1,27 @@
+"use client";
+import { useTranslation } from "react-i18next";
+import "../../i18n";
+
+export function Details() {
+  const { t } = useTranslation();
+  const skills = ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6"];
+
+  return (
+    <section id="about" className="px-8 py-24">
+      <div className="mx-auto mb-12 max-w-3xl text-center">
+        <h2 className="mb-4 text-4xl font-bold">{t("details_title")}</h2>
+        <p className="text-text-secondary">{t("details_subtitle")}</p>
+      </div>
+
+      <div className="mx-auto flex max-w-3xl flex-wrap justify-center gap-4">
+        {skills.map((skillKey) => (
+          <span
+            key={skillKey}
+            className="rounded-full bg-surface px-4 py-2 text-sm transition-all duration-300 hover:scale-105 hover:bg-primary hover:text-white"
+          >
+            {t(skillKey)}
+          </span>
+        ))}
+      </div>
+    </section>
+); }
