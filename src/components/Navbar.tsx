@@ -2,11 +2,13 @@
 import { useTheme } from "./ThemeProvider";
 import { useTranslation } from 'react-i18next';
 import { useHydration } from "@/hooks/useHydration";
+import { useScrollDirection } from "@/hooks/useScrollDirection";
 
 export function Navbar() {
   const { theme, toggleTheme } = useTheme();
   const { t, i18n } = useTranslation();
   const isMounted = useHydration();
+  const scrollDirection = useScrollDirection();
 
   const toggleLanguage = () => {
     const newLang = i18n.language === 'en' ? 'pt' : 'en';
@@ -18,13 +20,14 @@ export function Navbar() {
   }
 
   return (
-    <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 flex w-[calc(100%-4rem)] max-w-7xl items-center justify-between gap-4 rounded-full bg-surface px-6 py-3 shadow-lg backdrop-blur-sm">
-      <div className="flex-1">
-        <div className="max-w-[22px] cursor-pointer text-2xl font-bold transition-transform hover:scale-105" id="scrollToTop">
-          <span className="gradient-text">❍</span>
-        </div>
-      </div>
-
+    <nav 
+      className={`
+        fixed top-8 left-1/2 -translate-x-1/2 z-50 flex w-[calc(100%-4rem)] max-w-7xl items-center justify-between gap-4 
+        rounded-full bg-surface px-6 py-3 shadow-lg backdrop-blur-sm
+        transition-transform duration-300
+        ${scrollDirection === 'down' ? '-translate-y-[200%]' : 'translate-y-0'}
+      `}
+    >
       <div className="flex flex-2 items-center justify-start gap-4 overflow-x-auto whitespace-nowrap no-scrollbar md:justify-center md:gap-6">
         <a href="#showcase" className="text-text-secondary transition-colors hover:text-text">{t('showcase')}</a>
         <a href="#about" className="text-text-secondary transition-colors hover:text-text">{t('about')}</a>

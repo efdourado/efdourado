@@ -6,7 +6,7 @@ import { useHydration } from "@/hooks/useHydration";
 const projects = [
   {
     liveUrl: "https://fs-memphis.onrender.com",
-    imageUrl: "/assets/fs-memphis.png",
+    imageUrl: "/fs-memphis.png",
     techStack: ["Node.js", "MongoDB", "React", "Vite"],
     titleKey: "project1_title",
     descriptionKey: "project1_description",
