@@ -1,10 +1,15 @@
 "use client";
 import { useTranslation } from "react-i18next";
-import "../../i18n";
+import { useHydration } from "@/hooks/useHydration";
 
 export function Details() {
   const { t } = useTranslation();
+  const isMounted = useHydration();
   const skills = ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6"];
+
+  if (!isMounted) {
+    return null;
+  }
 
   return (
     <section id="about" className="px-8 py-24">
@@ -12,7 +17,6 @@ export function Details() {
         <h2 className="mb-4 text-4xl font-bold">{t("details_title")}</h2>
         <p className="text-text-secondary">{t("details_subtitle")}</p>
       </div>
-
       <div className="mx-auto flex max-w-3xl flex-wrap justify-center gap-4">
         {skills.map((skillKey) => (
           <span

@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useTranslation, Trans } from "react-i18next";
-import "../../i18n";
 
 type ProjectCardProps = {
   liveUrl: string;

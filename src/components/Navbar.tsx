@@ -1,17 +1,22 @@
 "use client";
-
 import { useTheme } from "./ThemeProvider";
 import { useTranslation } from 'react-i18next';
-import '../i18n';
+import { useHydration } from "@/hooks/useHydration";
+
 
 export function Navbar() {
   const { theme, toggleTheme } = useTheme();
   const { t, i18n } = useTranslation();
+  const isMounted = useHydration();
 
   const toggleLanguage = () => {
     const newLang = i18n.language === 'en' ? 'pt' : 'en';
     i18n.changeLanguage(newLang);
   };
+  
+  if (!isMounted) {
+    return null;
+  }
 
   return (
     <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 flex w-[calc(100%-4rem)] max-w-7xl items-center justify-between gap-4 rounded-full bg-surface px-6 py-3 shadow-lg backdrop-blur-sm">

@@ -1,9 +1,15 @@
 "use client";
 import { useTranslation } from "react-i18next";
-import "../../i18n";
+import { useHydration } from "@/hooks/useHydration";
 
 export function Footer() {
   const { t } = useTranslation();
+  const isMounted = useHydration();
+
+  if (!isMounted) {
+    return null;
+  }
+
   return (
     <footer id="footer" className="bg-surface px-8 py-12">
       <div className="mx-auto w-full max-w-7xl">
@@ -12,6 +18,7 @@ export function Footer() {
           <br />
           <span>{t("echoes")}</span>
         </h2>
+
         <p className="mb-12 max-w-xl text-lg text-text-secondary">
           {t("footer_subtitle")}
         </p>

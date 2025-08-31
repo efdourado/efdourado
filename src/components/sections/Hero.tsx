@@ -1,20 +1,22 @@
 "use client";
 import { useTranslation } from "react-i18next";
+import { useHydration } from "@/hooks/useHydration";
 import "../../i18n";
 
 export function Hero() {
   const { t } = useTranslation();
+  const isMounted = useHydration();
 
   return (
     <section className="relative flex min-h-screen items-center px-8 pt-32 pb-16">
       <div className="mx-auto w-full max-w-7xl">
         <h1 className="mb-8 text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight">
-          <span className="gradient-text">{t("hello")}</span>
+          <span className="gradient-text">{isMounted ? t("hello") : "Hello,"}</span>
           <br />
-          <span>{t("im_eduardo")}</span>
+          <span>{isMounted ? t("im_eduardo") : "I'm Eduardo Dourado;"}</span>
         </h1>
         <p className="mb-12 max-w-xl text-lg text-text-secondary">
-          {t("bio")}
+          {isMounted ? t("bio") : "a student really interested in AI and full-stack development. I focus on efficiency and seek a positive environment for everyone!"}
         </p>
 
         <div className="flex flex-col items-start gap-8 md:flex-row md:items-center">
@@ -22,7 +24,7 @@ export function Hero() {
             href="#showcase"
             className="rounded-full bg-gradient-to-br from-primary to-secondary px-8 py-3 font-semibold text-white transition-transform hover:scale-105"
           >
-            {t("showcase_title")}
+            {isMounted ? t("showcase_title") : "Selected Projects"}
           </a>
           <div className="flex gap-4">
             <a
