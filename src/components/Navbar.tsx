@@ -3,7 +3,6 @@ import { useTheme } from "./ThemeProvider";
 import { useTranslation } from 'react-i18next';
 import { useHydration } from "@/hooks/useHydration";
 
-
 export function Navbar() {
   const { theme, toggleTheme } = useTheme();
   const { t, i18n } = useTranslation();

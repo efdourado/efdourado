@@ -1,7 +1,7 @@
 "use client";
-
 import Image from "next/image";
 import { useTranslation, Trans } from "react-i18next";
+import { useHydration } from "@/hooks/useHydration";
 
 type ProjectCardProps = {
   liveUrl: string;
@@ -21,6 +21,7 @@ export function ProjectCard({
   githubUrl,
 }: ProjectCardProps) {
   const { t } = useTranslation();
+  const isMounted = useHydration();
 
   return (
     <article className="overflow-hidden rounded-2xl bg-surface transition-transform duration-300 hover:scale-[1.02]">
@@ -29,7 +30,7 @@ export function ProjectCard({
           {imageUrl ? (
             <Image
               src={imageUrl}
-              alt={`${t(titleKey)} project screenshot`}
+              alt={isMounted ? t(titleKey) : titleKey}
               fill
               style={{ objectFit: "cover" }}
             />
@@ -47,21 +48,22 @@ export function ProjectCard({
           </div>
         </div>
         <div className="p-6">
-          <h3 className="mb-3 text-xl font-semibold">{t(titleKey)}</h3>
-          <p className="mb-6 text-sm text-text-secondary">
-            <Trans
-              i18nKey={descriptionKey}
-              components={{
-                1: <strong />,
-                3: <strong />,
-                5: <strong />,
-                7: <strong />,
-              }}
-            />
-          </p>
-          <span className="project-link font-semibold text-primary">
-            {t("case_study")}
-          </span>
+          <h3 className="mb-3 text-xl font-semibold">
+            {isMounted ? t(titleKey) : titleKey.replace("_title", "")}
+          </h3>
+          {isMounted && (
+            <>
+              <p className="mb-6 text-sm text-text-secondary">
+                <Trans
+                  i18nKey={descriptionKey}
+                  components={{ 1: <strong />, 3: <strong />, 5: <strong />, 7: <strong /> }}
+                />
+              </p>
+              <span className="project-link font-semibold text-primary">
+                {t("case_study")}
+              </span>
+            </>
+          )}
         </div>
       </a>
     </article>

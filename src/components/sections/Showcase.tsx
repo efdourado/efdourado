@@ -19,7 +19,8 @@ const projects = [
     titleKey: "project2_title",
     descriptionKey: "project2_description",
     githubUrl: "https://github.com/efdourado/fs-cairo",
-}, ];
+  },
+];
 
 export function Showcase() {
   const { t } = useTranslation();

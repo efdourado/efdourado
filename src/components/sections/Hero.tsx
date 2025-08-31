@@ -1,7 +1,6 @@
 "use client";
 import { useTranslation } from "react-i18next";
 import { useHydration } from "@/hooks/useHydration";
-import "../../i18n";
 
 export function Hero() {
   const { t } = useTranslation();
