@@ -36,6 +36,14 @@ export function Hero() {
               <i className="fab fa-github"></i>
             </a>
             <a
+              href="https://linkedin.com/in/efdourado"
+              className="text-xl text-text-secondary transition-colors hover:text-text"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a
               href="https://instagram.com/efdourado"
               className="text-xl text-text-secondary transition-colors hover:text-text"
               target="_blank"
