@@ -1,6 +1,6 @@
 # hi there 👋
 
-## [portfolio (Eduardo Dourado)](https://efdourado.github.io/efdourado)
+## [portfolio (Eduardo Dourado)](https://efdourado.vercel.app/)
 
 ---
 

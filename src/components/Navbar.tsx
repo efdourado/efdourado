@@ -25,7 +25,7 @@ export function Navbar() {
         </div>
       </div>
 
-      <div className="hidden flex-2 items-center justify-center gap-6 whitespace-nowrap md:flex">
+      <div className="flex flex-2 items-center justify-start gap-4 overflow-x-auto whitespace-nowrap no-scrollbar md:justify-center md:gap-6">
         <a href="#showcase" className="text-text-secondary transition-colors hover:text-text">{t('showcase')}</a>
         <a href="#about" className="text-text-secondary transition-colors hover:text-text">{t('about')}</a>
         <a href="#footer" className="text-text-secondary transition-colors hover:text-text">{t('send_message')}</a>
