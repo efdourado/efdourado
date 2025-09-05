@@ -4,7 +4,7 @@
 
 ---
 
-## About
+## About me
 **Backend-focused Full-Stack Developer** specializing in building robust and scalable APIs with **Python (Django) and Node.js**. Experienced in **microservices architecture, PostgreSQL data modeling, and complex transactional systems**. Proven ability in developing **authentication systems, data management solutions, and business logic**, along with integrating external services and optimizing internal workflows. Seeking to leverage my skills to create **high-impact solutions** that merge efficiency, security, and user experience.
 
 ---
