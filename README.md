@@ -5,27 +5,15 @@
 ---
 
 ## About
-Full-Stack Developer focused on backend, currently pursuing a degree in Computer Science, with hands-on experience building complete web applications using Next.js, TypeScript, React, Django, and more. I am seeking challenges to apply and expand my knowledge in system architectures, API development, and high-impact solutions
+**Backend-focused Full-Stack Developer** specializing in building robust and scalable APIs with **Python (Django) and Node.js**. Experienced in **microservices architecture, PostgreSQL data modeling, and complex transactional systems**. Proven ability in developing **authentication systems, data management solutions, and business logic**, along with integrating external services and optimizing internal workflows. Seeking to leverage my skills to create **high-impact solutions** that merge efficiency, security, and user experience.
 
 ---
 
 ## Selected Projects
 
-- Full-Stack (FS)
+- [**Memphis - Listen. Feel. Create.**](https://fs-memphis.onrender.com) Music, reimagined. My goal is simple: turn **passive listening** into **active discovery** and make musical knowledge **accessible** to all. The approach combines **clear** musical mapping (instruments, keys, structure) with **insights** into streaming algorithms, alongside **tools** and guidance for anyone to create with **intention and purpose** (Node.js, Express, MongoDB, JWT, React).  [**Repositório**](https://github.com/efdourado/fs-memphis) | [**Deploy**](https://fs-memphis.onrender.com)
 
-    - [**Memphis**](https://fs-memphis.onrender.com) - Integrando conhecimento, cultura e prática, o Memphis é uma plataforma musical escalável e de fácil manutenção. Usei Node.js, Express e MongoDB em uma arquitetura em camadas (Services, DAOs, Controllers), containerização completa com Docker, autenticação JWT, painel administrativo e integração com o Spotify
-
-    - [**Cairo**](https://fs-cairo.vercel.app/) - Cairo é um sistema de pedidos de comida focado em velocidade e simplicidade, operando sobre uma API 100% RESTful. Segue boas práticas de design e arquitetura com Next.js + TypeScript, Prisma para ORM, Zod para validação tipada de dados, PostgreSQL como banco, e pagamentos processados via Stripe
-
----
-
-## Archives
-
-- [**api-rest**](https://github.com/efdourado/api-rest)
-
-- [**c**](https://github.com/efdourado/c) - problem-solving; C files
-
-- [**diferenciar-imagens**](https://github.com/efdourado/diferenciar-imagens)
+- **no-nonsense ordering experience** - [**Cairo**](https://fs-cairo.vercel.app/) is a fast, hassle-free food ordering system that lets you browse smartly, place, and manage your orders with just a few taps (TypeScript, Next.js, PostgreSQL, Stripe). [**Repositório**](https://github.com/efdourado/fs-cairo) | [**Deploy**](https://fs-cairo.vercel.app/)
 
 ---
 
