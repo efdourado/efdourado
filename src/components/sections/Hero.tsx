@@ -25,10 +25,10 @@ export function Hero() {
           >
             {isMounted ? t("showcase_title") : "Selected Projects"}
           </a>
-          <div className="flex gap-4">
+          <div className="flex gap-5">
             <a
               href="https://github.com/efdourado"
-              className="text-xl text-text-secondary transition-colors hover:text-text"
+              className="text-2xl text-text-secondary transition-colors hover:text-text"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -36,7 +36,7 @@ export function Hero() {
             </a>
             <a
               href="https://linkedin.com/in/efdourado"
-              className="text-xl text-text-secondary transition-colors hover:text-text"
+              className="text-2xl text-text-secondary transition-colors hover:text-text"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -44,7 +44,7 @@ export function Hero() {
             </a>
             <a
               href="https://instagram.com/efdourado"
-              className="text-xl text-text-secondary transition-colors hover:text-text"
+              className="text-2xl text-text-secondary transition-colors hover:text-text"
               target="_blank"
               rel="noopener noreferrer"
             >

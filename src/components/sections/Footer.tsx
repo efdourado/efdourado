@@ -32,10 +32,10 @@ export function Footer() {
           </a>
         </div>
 
-        <div className="mt-12 flex items-center gap-4">
+        <div className="mt-12 flex items-center gap-3">
           <p className="text-text-secondary">{t("color_palette")}</p>
-          <span className="h-8 w-8 rounded-full bg-[#6c63ff]"></span>
-          <span className="h-8 w-8 rounded-full bg-[#ff6584]"></span>
+          <span className="h-6 w-6 rounded-full bg-[#6c63ff]"></span>
+          <span className="h-6 w-6 rounded-full bg-[#ff6584]"></span>
         </div>
 
         <div className="mt-8 text-sm text-text-secondary">
