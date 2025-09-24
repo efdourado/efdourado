@@ -26,7 +26,6 @@ export function ProjectCard({
 
   return (
     <article className="group relative overflow-hidden rounded-2xl bg-surface transition-shadow duration-300 hover:shadow-xl">
-      {/* Stretched link for the main card action (Live Demo) */}
       <a
         href={liveUrl}
         target="_blank"
@@ -35,7 +34,6 @@ export function ProjectCard({
         aria-label={isMounted ? t(titleKey) : titleKey}
       ></a>
 
-      {/* All visual content is within this div */}
       <div className="transition-transform duration-300 group-hover:scale-[1.02]">
         <div className="relative h-64">
           {imageUrl ? (
@@ -74,7 +72,6 @@ export function ProjectCard({
         </div>
       </div>
 
-      {/* GitHub Icon Link - Appears only on hover */}
       <a
         href={githubUrl}
         target="_blank"
@@ -85,5 +82,4 @@ export function ProjectCard({
         <i className="fab fa-github text-2xl"></i>
       </a>
     </article>
-  );
-}
+); }
