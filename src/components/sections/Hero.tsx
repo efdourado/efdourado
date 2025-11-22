@@ -57,9 +57,9 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="mt-16 flex flex-col items-center text-text-secondary md:mt-auto">
+      <div className="mt-16 flex flex-col items-center text-text-secondary text-sm md:mt-auto">
         <span>Explore</span>
-        <div className="mt-2 h-12 w-px bg-text-secondary"></div>
+        <div className="mt-5 h-12 w-px bg-text-secondary"></div>
       </div>
     </section>
 ); }
