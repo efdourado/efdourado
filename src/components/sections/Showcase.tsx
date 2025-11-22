@@ -40,7 +40,7 @@ export function Showcase() {
   return (
     <section id="showcase" className="px-8 pt-24 pb-6">
       <div className="mx-auto mb-16 max-w-screen-md text-center">
-        <h2 className="mb-6 text-4xl font-bold">{t("showcase_title")}</h2>
+        <h2 className="mb-6 text-2xl font-bold">{t("showcase_title")}</h2>
         <p className="text-text-secondary">{t("showcase_subtitle")}</p>
       </div>
 

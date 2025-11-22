@@ -12,7 +12,7 @@ export function Footer() {
   }
 
   return (
-    <footer id="footer" className="bg-surface px-8 py-14 mt-16">
+    <footer id="footer" className="bg-surface px-14 py-14 mt-16">
       <div className="mx-auto w-full max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-10">
 

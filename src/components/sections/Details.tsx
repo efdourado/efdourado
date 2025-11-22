@@ -16,7 +16,7 @@ export function Details() {
     <section id="about" className="px-8 py-24">
       <div className="mx-auto mb-16 max-w-4xl text-center">
         <FadeIn>
-          <h2 className="mb-6 text-4xl font-bold">{t("details_title")}</h2>
+          <h2 className="mb-6 text-2xl font-bold">{t("details_title")}</h2>
         </FadeIn>
         <FadeIn>
           <p className="text-text-secondary">{t("details_subtitle")}</p>
