@@ -8,8 +8,6 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    load: 'languageOnly',
-
     resources: {
       en: {
         translation: enTranslation,
@@ -18,9 +16,7 @@ i18n
         translation: ptTranslation,
     }, },
     
-    fallbackLng: 'en',
-    supportedLngs: ['en', 'pt'],
-    
+    fallbackLng: 'en',    
     interpolation: {
       escapeValue: false,
   }, });

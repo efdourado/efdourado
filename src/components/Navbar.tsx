@@ -36,7 +36,7 @@ export function Navbar() {
         </div>
       </div>
 
-      <div className="flex flex-2 items-center justify-start text-sm gap-1 mr-3 overflow-x-auto whitespace-nowrap no-scrollbar md:justify-end md:gap-6 lg:gap-8">
+      <div className="flex flex-2 items-center justify-start text-sm gap-3 mr-3 overflow-x-auto whitespace-nowrap no-scrollbar md:justify-end md:gap-6 lg:gap-8">
         <a href="#showcase" className="text-text-secondary transition-colors hover:text-black/70 dark:hover:text-white/70">
           {isMounted ? t('showcase') : 'Showcase'}
         </a>
@@ -63,7 +63,7 @@ export function Navbar() {
         >
           {isMounted ? (
             <>
-              <span className="language-text">{i18n.language.toUpperCase()}</span>
+              <span className="language-text">{i18n.language.split('-')[0].toUpperCase()}</span>
               <i className="fas fa-language"></i>
             </>
           ) : (
