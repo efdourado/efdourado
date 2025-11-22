@@ -49,7 +49,7 @@ export function Navbar() {
       </div>
 
       <div className="flex items-center justify-end gap-2 pl-6 border-l border-black/40 dark:border-white/10">
-        <button className="theme-toggle pr-4 text-lg text-text-secondary" onClick={toggleTheme}>
+        <button className="theme-toggle pr-4 text-sm text-text-secondary" onClick={toggleTheme}>
           {isMounted ? (
             <i className={theme === "dark" ? "fas fa-moon" : "fas fa-sun"}></i>
           ) : (
@@ -58,7 +58,7 @@ export function Navbar() {
         </button>
 
         <button 
-          className="flex cursor-pointer items-center gap-2 rounded-full border border-primary px-4 py-1 text-sm font-semibold text-primary transition-transform hover:scale-105"
+          className="flex cursor-pointer items-center gap-2 rounded-full border border-primary px-4 py-1 text-xs font-semibold text-primary transition-transform hover:scale-105"
           onClick={toggleLanguage}
         >
           {isMounted ? (

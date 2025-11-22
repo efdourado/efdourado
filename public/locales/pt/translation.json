@@ -20,14 +20,16 @@
   
   "details_title": "Detalhes",
   "details_subtitle": "Aqui está uma visão mais detalhada das ferramentas e tecnologias que estou usando atualmente para dar vida às ideias. Desde integrações frontend e backend até análise de dados, resolução de problemas e diferentes abordagens de design.",
-  
-  "skill1": "HTML, CSS",
-  "skill2": "JavaScript (e TypeScript), Python",
-  "skill3": "Django, React, Next.js, Prisma",
-  "skill4": "PostgreSQL, MongoDB",
-  "skill5": "Git, GitHub",
-  "skill6": "UI/UX Design",
-  
+
+  "skill1": "JavaScript & TypeScript",
+  "skill2": "React, Next.js & Tailwind CSS",
+  "skill3": "Node.js & PHP",
+  "skill4": "Python & Django",
+  "skill5": "PostgreSQL, MongoDB & SQL",
+  "skill6": "Docker, Git & GitHub",
+  "skill7": "IA/ML: TensorFlow & Scikit-Learn",
+  "skill8": "UI/UX Design",
+
   "thank_you": "Obrigado por chegar até aqui!",
   "footer_subtitle": "Caso queira conversar, sinta-se à vontade para me enviar uma mensagem (estou sempre aberto a ouvir novas histórias : ):",
   "color_palette": "Paleta de cores:",

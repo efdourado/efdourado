@@ -38,12 +38,13 @@ export function Showcase() {
   }
 
   return (
-    <section id="showcase" className="px-8 py-24">
-      <div className="mx-auto mb-16 max-w-7xl text-center">
+    <section id="showcase" className="px-8 pt-24 pb-6">
+      <div className="mx-auto mb-16 max-w-screen-md text-center">
         <h2 className="mb-6 text-4xl font-bold">{t("showcase_title")}</h2>
         <p className="text-text-secondary">{t("showcase_subtitle")}</p>
       </div>
-      <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2">
+
+      <div className="mx-auto grid max-w-screen-2xl gap-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <ProjectCard key={project.titleKey} {...project} />
         ))}

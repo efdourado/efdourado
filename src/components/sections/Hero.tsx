@@ -7,28 +7,28 @@ export function Hero() {
   const isMounted = useHydration();
 
   return (
-    <section className="relative flex min-h-screen items-center px-8 pt-32 pb-16">
+    <section className="relative flex min-h-screen items-center px-8 py-16">
       <div className="mx-auto w-full max-w-7xl">
-        <h1 className="mb-8 text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight">
+        <h1 className="mb-8 text-[clamp(2rem,4vw,3rem)] font-bold leading-tight">
           <span className="gradient-text">{isMounted ? t("hello") : "Hello,"}</span>
           <br />
           <span>{isMounted ? t("im_eduardo") : "I'm Eduardo Dourado;"}</span>
         </h1>
-        <p className="mb-20 max-w-xl text-lg text-text-secondary">
+        <p className="mb-20 max-w-xl text-md md:text-lg text-text-secondary">
           {isMounted ? t("bio") : "a student really interested in AI and full-stack development. I focus on efficiency and seek a positive environment for everyone!"}
         </p>
 
         <div className="flex flex-col items-start gap-8 md:flex-row md:items-center">
           <a
             href="#showcase"
-            className="rounded-full bg-gradient-to-br from-primary to-secondary px-8 py-3 font-semibold text-white transition-transform hover:scale-105"
+            className="rounded-full bg-gradient-to-br from-primary to-secondary px-8 py-3 font-semibold text-white text-sm transition-transform hover:scale-105"
           >
             {isMounted ? t("showcase_title") : "Selected Projects"}
           </a>
           <div className="flex gap-5">
             <a
               href="https://github.com/efdourado"
-              className="text-2xl text-text-secondary transition-colors hover:text-text"
+              className="text-xl text-text-secondary transition-colors hover:text-text"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -36,19 +36,11 @@ export function Hero() {
             </a>
             <a
               href="https://linkedin.com/in/efdourado"
-              className="text-2xl text-text-secondary transition-colors hover:text-text"
+              className="text-xl text-text-secondary transition-colors hover:text-text"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-linkedin"></i>
-            </a>
-            <a
-              href="https://instagram.com/efdourado"
-              className="text-2xl text-text-secondary transition-colors hover:text-text"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-instagram"></i>
             </a>
           </div>
         </div>

@@ -6,7 +6,7 @@ import { FadeIn } from "@/components/ui/FadeIn";
 export function Details() {
   const { t } = useTranslation();
   const isMounted = useHydration();
-  const skills = ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6"];
+  const skills = ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6", "skill7", "skill8"];
 
   if (!isMounted) {
     return null;
@@ -14,7 +14,7 @@ export function Details() {
 
   return (
     <section id="about" className="px-8 py-24">
-      <div className="mx-auto mb-16 max-w-3xl text-center">
+      <div className="mx-auto mb-16 max-w-4xl text-center">
         <FadeIn>
           <h2 className="mb-6 text-4xl font-bold">{t("details_title")}</h2>
         </FadeIn>
@@ -23,7 +23,7 @@ export function Details() {
         </FadeIn>
       </div>
       <FadeIn>
-        <div className="mx-auto flex max-w-3xl flex-wrap justify-center gap-4">
+        <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-4">
           {skills.map((skillKey) => (
             <span
               key={skillKey}

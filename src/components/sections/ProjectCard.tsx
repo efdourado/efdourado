@@ -34,7 +34,7 @@ export function ProjectCard({
         aria-label={isMounted ? t(titleKey) : titleKey}
       ></a>
 
-      <div className="transition-transform duration-300 group-hover:scale-[1.02]">
+      <div className="transition-transform duration-300 group-hover:scale-[1.01]">
         <div className="relative h-64">
           {imageUrl ? (
             <Image

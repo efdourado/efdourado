@@ -6,7 +6,7 @@ import { Providers } from "@/components/Providers";
 const inter = Inter({ subsets: ["latin"] });
 
 const siteConfig = {
-  title: "Eduardo Dourado | Desenvolvedor Full-Stack",
+  title: "Eduardo Dourado | Full-Stack",
   description: "Portfólio de Eduardo Dourado, um estudante de Ciência da Computação e Desenvolvedor Full-Stack com foco em backend, construindo APIs e soluções de alto impacto",
   url: "https://efdourado.vercel.app",
 };
@@ -41,14 +41,6 @@ export const metadata: Metadata = {
         height: 630,
         alt: "Eduardo Dourado Portfolio",
   }, ], },
-  
-  twitter: {
-    card: "summary_large_image",
-    title: siteConfig.title,
-    description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.jpeg`],
-    creator: "@efdourado",
-  },
   
   icons: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text x='0' y='26' font-size='32' font-family='Arial' fill='black'>❍</text></svg>",
   
