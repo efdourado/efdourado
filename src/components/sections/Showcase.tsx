@@ -13,14 +13,21 @@ const projects = [
     githubUrl: "https://github.com/efdourado/fs-memphis",
   },
   {
-    liveUrl: "http://fs-cairo.vercel.app",
+    liveUrl: "https://fs-cairo.vercel.app",
     imageUrl: "",
-    techStack: ["Prisma", "Tailwind CSS", "Next.js"],
+    techStack: ["Prisma", "Next.js", "Tailwind CSS"],
     titleKey: "project2_title",
     descriptionKey: "project2_description",
     githubUrl: "https://github.com/efdourado/fs-cairo",
   },
-];
+  {
+    liveUrl: "https://fs-oslo.vercel.app",
+    imageUrl: "/fs-oslo.png",
+    techStack: ["TypeScript", "Supabase", "Next.js", "Tailwind CSS"],
+    titleKey: "project3_title",
+    descriptionKey: "project3_description",
+    githubUrl: "https://github.com/efdourado/fs-oslo",
+}, ];
 
 export function Showcase() {
   const { t } = useTranslation();
@@ -32,8 +39,8 @@ export function Showcase() {
 
   return (
     <section id="showcase" className="px-8 py-24">
-      <div className="mx-auto mb-12 max-w-7xl text-center">
-        <h2 className="mb-4 text-4xl font-bold">{t("showcase_title")}</h2>
+      <div className="mx-auto mb-16 max-w-7xl text-center">
+        <h2 className="mb-6 text-4xl font-bold">{t("showcase_title")}</h2>
         <p className="text-text-secondary">{t("showcase_subtitle")}</p>
       </div>
       <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2">

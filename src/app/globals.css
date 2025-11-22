@@ -2,20 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary: #6c63ff;
   --secondary: #ff6584;
   --background: #f8f9fa;
   --surface: rgba(0, 0, 0, 0.06);
   --text: #212529;
-  --text-secondary: rgba(0, 0, 0, 0.8);
+  --text-secondary: rgba(0, 0, 0, 0.6);
 }
 
 [data-theme="dark"] {
   --background: #0f0f0f;
   --surface: rgba(255, 255, 255, 0.06);
   --text: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.8);
+  --text-secondary: rgba(255, 255, 255, 0.6);
 }
 
 body {

@@ -6,24 +6,30 @@
   "im_eduardo": "I'm Eduardo Dourado;",
   "bio": "backend-focused Full-Stack Developer specializing in building robust and scalable APIs with Python (Django) and Node.js. Seeking to leverage my skills to create high-impact solutions that merge efficiency, security, and user experience.",
   "showcase_title": "Selected Projects",
-  "showcase_subtitle": "A collection of my most exciting and key projects, showcasing my skills and efficiency",
+  "showcase_subtitle": "A collection with some of my greatest projects... Click a card to access the live demo, and hover over the top-right corner (GitHub icon) to open the code!",
   "case_study": "View on GitHub",
-  "project1_title": "Memphis",
-  "project1_description": "Integrating knowledge, culture, and practice, Memphis is a scalable music platform. It uses Node.js, Express & MongoDB in a layered architecture, containerization with Docker, JWT authentication, and integration with Spotify",
-  "project2_title": "Cairo",
-  "project2_description": "Cairo is a food ordering system focused on speed and simplicity, built upon a 100% RESTful API. It features Next.js + TypeScript, Prisma for ORM, Zod for validation, PostgreSQL as the database, and payments via Stripe",
+  
+  "project1_title": "Music Platform",
+  "project1_description": "Integrating knowledge, culture, and practice, Memphis is a scalable music platform. It uses Node.js, Express & MongoDB in a layered architecture, containerization with Docker, JWT authentication, and integration with Spotify.",
+  
+  "project2_title": "Food Ordering System",
+  "project2_description": "Cairo is a food ordering system focused on speed and simplicity, built upon a 100% RESTful API. It features Next.js + TypeScript, Prisma for ORM, Zod for validation, PostgreSQL as the database, and payments via Stripe.",
+  
+  "project3_title": "Distraction-Free Studies",
+  "project3_description": "Oslo is designed for maximum efficiency. Practice with questions, review your mistakes and organize your knowledge. Built on the Next.js and TypeScript ecosystem, the project uses Server Components, Server Actions, Tailwind CSS and Radix UI to be intuitive and responsive, delivering consistency across any device.",
+
   "details_title": "Details",
-  "details_subtitle": "Here's a closer look at the tools and technologies I'm currently using to bring to life ideas. From frontend and backend integrations to data analysis, problem-solving and different design approaches",
+  "details_subtitle": "Here's a closer look at the tools and technologies I'm currently using to bring to life ideas. From frontend and backend integrations to data analysis, problem-solving and different design approaches.",
+  
   "skill1": "HTML, CSS",
   "skill2": "JavaScript (and TypeScript), Python",
   "skill3": "Django, React, Next.js, Prisma",
   "skill4": "PostgreSQL, MongoDB",
   "skill5": "Git, GitHub",
   "skill6": "UI/UX Design",
-  "thank_you": "Thank You!",
-  "echoes": "Echoes find echoes;",
-  "footer_subtitle": "send me a message! Or drop your thoughts:",
-  "send_message_btn": "Send a Message",
+  
+  "thank_you": "Thanks for making it all the way here!",
+  "footer_subtitle": "If you'd like to talk, feel free to send me a message (I'm always up for hearing new stories : ):",
   "color_palette": "Color palette:",
-  "rights_reserved": "All rights reserved."
+  "rights_reserved": "Usage rights protected."
 }

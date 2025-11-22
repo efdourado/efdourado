@@ -14,7 +14,7 @@ export function Hero() {
           <br />
           <span>{isMounted ? t("im_eduardo") : "I'm Eduardo Dourado;"}</span>
         </h1>
-        <p className="mb-12 max-w-xl text-lg text-text-secondary">
+        <p className="mb-20 max-w-xl text-lg text-text-secondary">
           {isMounted ? t("bio") : "a student really interested in AI and full-stack development. I focus on efficiency and seek a positive environment for everyone!"}
         </p>
 

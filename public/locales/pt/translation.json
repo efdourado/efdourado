@@ -6,24 +6,30 @@
   "im_eduardo": "sou Eduardo Dourado;",
   "bio": "desenvolvedor Full-Stack com ênfase em Backend, especializado na construção de APIs robustas e escaláveis com Python (Django) e Node.js. Busco aplicar minhas habilidades para criar soluções de alto impacto que unam eficiência, segurança e experiência do usuário.",
   "showcase_title": "Projetos Selecionados",
-  "showcase_subtitle": "Uma coleção dos meus projetos mais importantes, mostrando minhas habilidades e eficiência",
+  "showcase_subtitle": "Uma coleção com alguns grandes projetos meus... Clique no card para abrir o deploy e, com o mouse no canto superior direito, acesse o código pelo ícone do GitHub!",
   "case_study": "Ver no GitHub",
-  "project1_title": "Memphis",
-  "project1_description": "Integrando conhecimento, cultura e prática, o Memphis é uma plataforma musical escalável e de fácil manutenção. Usei Node.js, Express e MongoDB em uma arquitetura em camadas (Services, DAOs, Controllers), containerização completa com Docker, autenticação JWT, painel administrativo e integração com o Spotify",
-  "project2_title": "Cairo",
-  "project2_description": "Cairo é um sistema de pedidos de comida focado em velocidade e simplicidade, operando sobre uma API 100% RESTful. Segue boas práticas de design e arquitetura com Next.js + TypeScript, Prisma para ORM, Zod para validação tipada de dados, PostgreSQL como banco, e pagamentos processados via Stripe",
+
+  "project1_title": "Plataforma Musical",
+  "project1_description": "Integrando conhecimento, cultura e prática, o Memphis é uma plataforma musical escalável e de fácil manutenção. Usei Node.js, Express e MongoDB em uma arquitetura em camadas (Services, DAOs, Controllers), containerização completa com Docker, autenticação JWT, painel administrativo e integração com o Spotify.",
+  
+  "project2_title": "Sistema de Pedidos de Comida",
+  "project2_description": "Cairo é um sistema de pedidos de comida focado em velocidade e simplicidade, operando sobre uma API 100% RESTful. Segue boas práticas de design e arquitetura com Next.js + TypeScript, Prisma para ORM, Zod para validação tipada de dados, PostgreSQL como banco, e pagamentos processados via Stripe.",
+
+  "project3_title": "Estudos sem distrações",
+  "project3_description": "Oslo é projetado para máxima eficiência. Pratique com questões, revise seus erros e organize seu conhecimento. Construído sobre o ecossistema Next.js e TypeScript, o projeto utiliza Server Components, Server Actions, Tailwind CSS e Radix UI para ser intuitivo e responsivo, proporcionando consistência em qualquer dispositivo.",
+  
   "details_title": "Detalhes",
-  "details_subtitle": "Aqui está uma visão mais detalhada das ferramentas e tecnologias que estou usando atualmente para dar vida às ideias. Desde integrações frontend e backend até análise de dados, resolução de problemas e diferentes abordagens de design",
+  "details_subtitle": "Aqui está uma visão mais detalhada das ferramentas e tecnologias que estou usando atualmente para dar vida às ideias. Desde integrações frontend e backend até análise de dados, resolução de problemas e diferentes abordagens de design.",
+  
   "skill1": "HTML, CSS",
   "skill2": "JavaScript (e TypeScript), Python",
   "skill3": "Django, React, Next.js, Prisma",
   "skill4": "PostgreSQL, MongoDB",
   "skill5": "Git, GitHub",
   "skill6": "UI/UX Design",
-  "thank_you": "Obrigado!",
-  "echoes": "Ecos encontram ecos;",
-  "footer_subtitle": "envie-me uma mensagem! Ou compartilhe seus pensamentos:",
-  "send_message_btn": "Envie uma Mensagem",
+  
+  "thank_you": "Obrigado por chegar até aqui!",
+  "footer_subtitle": "Caso queira conversar, sinta-se à vontade para me enviar uma mensagem (estou sempre aberto a ouvir novas histórias : ):",
   "color_palette": "Paleta de cores:",
   "rights_reserved": "Todos os direitos reservados."
 }

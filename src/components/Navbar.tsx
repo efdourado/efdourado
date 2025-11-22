@@ -15,6 +15,12 @@ export function Navbar() {
     i18n.changeLanguage(newLang);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+  }); };
+
   return (
     <nav 
       className={`
@@ -25,29 +31,29 @@ export function Navbar() {
       `}
     >
       <div className="flex-1">
-        <div className="max-w-[22px] cursor-pointer text-2xl font-bold transition-transform hover:scale-105" id="scrollToTop">
+        <div className="max-w-[22px] cursor-pointer text-2xl font-bold transition-transform hover:scale-105" id="scrollToTop" onClick={scrollToTop}>
           <span className="gradient-text">❍</span>
         </div>
       </div>
 
-      <div className="flex flex-2 items-center justify-start gap-4 overflow-x-auto whitespace-nowrap no-scrollbar md:justify-center md:gap-6">
-        <a href="#showcase" className="text-text-secondary transition-colors hover:text-text">
+      <div className="flex flex-2 items-center justify-start text-sm gap-4 mr-3 overflow-x-auto whitespace-nowrap no-scrollbar md:justify-end md:gap-8">
+        <a href="#showcase" className="text-text-secondary transition-colors hover:text-black/70 dark:hover:text-white/70">
           {isMounted ? t('showcase') : 'Showcase'}
         </a>
-        <a href="#about" className="text-text-secondary transition-colors hover:text-text">
+        <a href="#about" className="text-text-secondary transition-colors hover:text-black/70 dark:hover:text-white/70">
           {isMounted ? t('about') : 'About me'}
         </a>
-        <a href="#footer" className="text-text-secondary transition-colors hover:text-text">
+        <a href="#footer" className="text-text-secondary transition-colors hover:text-black/70 dark:hover:text-white/70">
           {isMounted ? t('send_message') : 'Get in touch'}
         </a>
       </div>
 
-      <div className="flex flex-1 items-center justify-end gap-2">
+      <div className="flex items-center justify-end gap-2 pl-6 border-l border-black/40 dark:border-white/10">
         <button className="theme-toggle pr-4 text-lg text-text-secondary" onClick={toggleTheme}>
           {isMounted ? (
             <i className={theme === "dark" ? "fas fa-moon" : "fas fa-sun"}></i>
           ) : (
-            <i className="fas fa-moon"></i> // Ícone padrão para o servidor
+            <i className="fas fa-moon"></i>
           )}
         </button>
 
