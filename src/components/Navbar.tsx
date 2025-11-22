@@ -24,9 +24,8 @@ export function Navbar() {
   return (
     <nav 
       className={`
-        fixed top-8 left-1/2 -translate-x-1/2 z-50 flex w-[calc(100%-4rem)] max-w-7xl items-center justify-between gap-4 
-        rounded-full bg-surface px-6 py-3 shadow-lg backdrop-blur-sm
-        transition-transform duration-300
+        fixed top-8 left-1/2 -translate-x-1/2 z-50 flex w-[calc(100%-4rem)] max-w-7xl items-center justify-between gap-4
+        rounded-full bg-surface px-6 py-3 shadow-lg backdrop-blur-sm transition-transform duration-300
         ${scrollDirection === 'down' ? '-translate-y-[200%]' : 'translate-y-0'}
       `}
     >

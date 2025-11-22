@@ -7,8 +7,8 @@ export function Hero() {
   const isMounted = useHydration();
 
   return (
-    <section className="relative flex min-h-screen items-center pt-50 md:pt-0 px-14">
-      <div className="mx-auto w-full max-w-7xl">
+    <section className="relative flex min-h-screen items-center px-14">
+      <div className="mx-auto w-full max-w-7xl mt-20">
         <h1 className="mb-8 text-[clamp(2rem,4vw,3rem)] font-bold leading-tight">
           <span className="gradient-text">{isMounted ? t("hello") : "Hello,"}</span>
           <br />
