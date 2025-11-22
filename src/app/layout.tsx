@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const siteConfig = {
   title: "Eduardo Dourado | Full-Stack",
-  description: "Portfólio de Eduardo Dourado, um estudante de Ciência da Computação e Desenvolvedor Full-Stack com foco em backend, construindo APIs e soluções de alto impacto",
+  description: "Backend-focused Full-Stack Developer specializing in building robust and scalable APIs with Python (Django) and Node.js. Experienced in microservices architecture, PostgreSQL data modeling, and complex transactional systems. Seeking to leverage my skills to create high-impact solutions that merge efficiency, security, and user experience.",
   url: "https://efdourado.vercel.app",
 };
 
@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   keywords: [
     "Desenvolvedor Full-Stack",
+    "Full-Stack Developer",
     "Backend",
     "Next.js",
     "TypeScript",
     "React",
-    "Django",
     "Portfolio",
     "Eduardo Dourado",
   ],
@@ -37,9 +37,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: `${siteConfig.url}/og-image.jpeg`,
-        width: 1200,
+        width: 630,
         height: 630,
-        alt: "Eduardo Dourado Portfolio",
   }, ], },
   
   icons: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text x='0' y='26' font-size='32' font-family='Arial' fill='black'>❍</text></svg>",
