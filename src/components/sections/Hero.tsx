@@ -31,17 +31,19 @@ export function Hero() {
         <div className="flex flex-col items-start gap-6 md:flex-row md:items-center">
           <a
             href="#showcase"
-            className="rounded-full border-2 border-secondary bg-secondary px-8 py-2 font-semibold text-[#f5f5f5] text-sm transition-transform hover:scale-102"
+            className="rounded-full border-2 border-secondary bg-secondary px-6 py-3 font-semibold text-[#f5f5f5] text-sm transition-transform hover:scale-102"
             suppressHydrationWarning
           >
-            {t("showcase_title")}
+            {t("services")}
           </a>
           <a
             href="#about"
-            className="rounded-full border-2 border-primary px-8 py-2 font-semibold text-text text-sm transition-transform hover:scale-102"
+            className="rounded-full flex flex-row items-center border-2 border-primary pl-6 pr-3 py-3 font-semibold text-text text-sm transition-transform hover:scale-102"
             suppressHydrationWarning
           >
-            {t("details_title")}
+            {t("about")}
+
+            <i className="far fa-circle-down text-primary text-xl ml-5"></i>
           </a>
 
           <div className="flex gap-5">
@@ -64,7 +66,5 @@ export function Hero() {
           </div>
         </div>
       </div>
-
-
     </section>
 ); }

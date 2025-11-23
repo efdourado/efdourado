@@ -42,6 +42,13 @@ export function Navbar() {
           {t('showcase')}
         </a>
         <a
+          href="#services"
+          className="text-text-secondary transition-colors hover:text-black/70 dark:hover:text-white/70"
+          suppressHydrationWarning
+        >
+          {t('services')}
+        </a>
+        <a
           href="#about"
           className="text-text-secondary transition-colors hover:text-black/70 dark:hover:text-white/70"
           suppressHydrationWarning
@@ -57,7 +64,7 @@ export function Navbar() {
         </a>
       </div>
 
-      <div className="flex items-center justify-end gap-2 pl-6 border-l border-black/40 dark:border-white/10">
+      <div className="flex items-center justify-end gap-2 pl-6 border-l border-black/10 dark:border-white/10">
         <button
           className="theme-toggle pr-4 text-sm text-text-secondary"
           onClick={toggleTheme}
@@ -72,7 +79,13 @@ export function Navbar() {
           suppressHydrationWarning
         >
           <>
-            <span className="language-text">{i18n.language.split('-')[0].toUpperCase()}</span>
+            <span
+              className="language-text"
+              suppressHydrationWarning
+            >
+              {i18n.language.split('-')[0].toUpperCase()}
+            </span>
+            
             <i className="fas fa-language"></i>
           </>
         </button>

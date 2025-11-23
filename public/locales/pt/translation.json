@@ -4,7 +4,7 @@
   "send_message": "Entre em contato",
   "hello": "Olá,",
   "im_eduardo": "sou Eduardo Dourado;",
-  "bio": "desenvolvedor Full-Stack com ênfase em Backend, especializado na construção de APIs robustas e escaláveis com Python (Django) e Node.js. Busco aplicar minhas habilidades para criar soluções de alto impacto que unam eficiência, segurança e experiência do usuário.",
+  "bio": "desenvolvedor Full-Stack com ênfase em Backend. Busco aplicar minhas habilidades para criar soluções de alto impacto que unam eficiência, segurança e experiência do usuário.",
   "showcase_title": "Projetos Selecionados",
   "showcase_subtitle": "Uma coleção com alguns grandes projetos meus... Clique no card para abrir o deploy e, com o mouse no canto superior direito, acesse o código pelo ícone do GitHub!",
   "case_study": "Ver no GitHub",
@@ -18,8 +18,27 @@
   "project3_title": "Estudos sem distrações",
   "project3_description": "Oslo é projetado para máxima eficiência. Pratique com questões, revise seus erros e organize seu conhecimento. Construído sobre o ecossistema Next.js e TypeScript, o projeto utiliza Server Components, Server Actions, Tailwind CSS e Radix UI para ser intuitivo e responsivo, proporcionando consistência em qualquer dispositivo.",
   
-  "details_title": "Detalhes",
-  "details_subtitle": "Aqui está uma visão mais detalhada do que estou usando atualmente para dar vida às ideias.",
+  "core_tech": "Principais Tecnologias",
+  "complete_toolkit": "Arsenal Completo & Ferramentas",
+
+  "services": "Especialidades",
+
+
+  "full_stack_development": "Desenvolvimento Full-Stack",
+  "full_stack_development_desc": "Criação de aplicações completas; da arquitetura do banco de dados ao frontend refinado.",
+  "scalable_architecture": "Arquitetura Escalável",
+  "scalable_architecture_desc": "Design de sistemas robustos. Foco em microsserviços, containerização (Docker/K8s) e otimização de queries para alta performance.",
+  "ai_engineering": "Engenharia de IA & LLMs",
+  "ai_engineering_desc": "Desenvolvimento de chatbots e agentes autônomos. Treinamento e fine-tuning de redes neurais para resolver problemas específicos.",
+  "ux_engineering": "UX Engineering",
+  "ux_engineering_desc": "Aplico conceitos avançados de UX e micro-interações para transformar sistemas complexos em ferramentas intuitivas.",
+
+  "philosophy": "Filosofia",
+
+  "vision_360": "360º",
+  "vision_360_desc": "Crio soluções novas e customizadas que colocam seu produto à frente. Desenvolvo pensando no ROI e na escalabilidade do negócio.",
+  "ux": "Experiência do Usuário",
+  "ux_desc": "Tecnologia deve servir pessoas. O objetivo final é sempre melhorar a vida do usuário.",
 
   "thank_you": "Obrigado por chegar até aqui!",
   "footer_subtitle": "Caso queira conversar, sinta-se à vontade para me enviar uma mensagem (estou sempre aberto a ouvir novas histórias : ):",

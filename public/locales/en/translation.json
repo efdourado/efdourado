@@ -4,7 +4,7 @@
   "send_message": "Get in touch",
   "hello": "Hello,",
   "im_eduardo": "I'm Eduardo Dourado;",
-  "bio": "backend-focused Full-Stack Developer specializing in building robust and scalable APIs with Python (Django) and Node.js. Seeking to leverage my skills to create high-impact solutions that merge efficiency, security, and user experience.",
+  "bio": "backend-focused Full-Stack Developer. Seeking to leverage my skills to create high-impact solutions that merge efficiency, security, and user experience.",
   "showcase_title": "Selected Projects",
   "showcase_subtitle": "A collection with some of my greatest projects... Click a card to access the live demo, and hover over the top-right corner (GitHub icon) to open the code!",
   "case_study": "View on GitHub",
@@ -18,8 +18,26 @@
   "project3_title": "Distraction-Free Studies",
   "project3_description": "Oslo is designed for maximum efficiency. Practice with questions, review your mistakes and organize your knowledge. Built on the Next.js and TypeScript ecosystem, the project uses Server Components, Server Actions, Tailwind CSS and Radix UI to be intuitive and responsive, delivering consistency across any device.",
 
-  "details_title": "Details",
-  "details_subtitle": "Here's a closer look at the tools and technologies I'm currently using to bring to life ideas.",
+  "core_tech": "Core Tech",
+  "complete_toolkit": "Complete Toolkit",
+
+  "services": "Services",
+
+  "full_stack_development": "Full-Stack Development",
+  "full_stack_development_desc": "Building complete applications; from database architecture to refined frontend experiences.",  
+  "scalable_architecture": "Scalable Architecture",
+  "scalable_architecture_desc": "Designing robust, production-grade systems. Focused on microservices, containerization (Docker/K8s), and query optimization for high performance.",
+  "ai_engineering": "AI & LLM Engineering",
+  "ai_engineering_desc": "Developing chatbots and autonomous agents. Training and fine-tuning neural networks tailored to specific business needs.",
+  "ux_engineering": "UX Engineering",
+  "ux_engineering_desc": "Applying advanced UX concepts and micro-interactions to transform complex systems into intuitive and seamless user experiences.",
+
+  "philosophy": "Philosophy",
+  
+  "vision_360": "360°",
+  "vision_360_desc": "I create original and tailored solutions that push your product forward. Code is a means, not the end — I build with ROI, purpose, and scalability in mind.",
+  "ux": "User Experience",
+  "ux_desc": "Technology must serve people. The ultimate goal is always to improve the user's experience and everyday life.",
   
   "thank_you": "Thanks for making it all the way here!",
   "footer_subtitle": "If you'd like to talk, feel free to send me a message (I'm always up for hearing new stories : ):",
