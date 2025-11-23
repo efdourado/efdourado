@@ -44,9 +44,9 @@ export function ProjectCard({
               style={{ objectFit: "cover" }}
             />
           ) : (
-            <div className="h-full w-full bg-gradient-to-br from-primary to-secondary"></div>
+            <div className="h-full w-full bg-primary"></div>
           )}
-          <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent p-6">
+          <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/30 to-transparent p-6">
             <div className="flex flex-wrap gap-2">
               {techStack.map((tech) => (
                 <span key={tech} className="rounded-full bg-black/50 px-3 py-1 text-xs text-white backdrop-blur-sm">

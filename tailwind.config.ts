@@ -10,13 +10,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#6c63ff",
-        secondary: "#ff6584",
-
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        tertiary: "var(--tertiary)",
         background: "var(--background)",
         surface: "var(--surface)",
         text: "var(--text)",
         "text-secondary": "var(--text-secondary)",
+      },
+
+      scale: {
+        '102': '1.02',
       },
 
       fontFamily: {

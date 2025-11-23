@@ -6,7 +6,10 @@ import { FadeIn } from "@/components/ui/FadeIn";
 export function Details() {
   const { t } = useTranslation();
   const isMounted = useHydration();
-  const skills = ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6", "skill7", "skill8"];
+  const skills = [
+    "JavaScript & TypeScript", "React, Next.js & Tailwind CSS", "Node.js & PHP", "Python",
+    "PostgreSQL, MongoDB & SQL", "Docker, Git & GitHub", "UI/UX Design"
+  ];
 
   if (!isMounted) {
     return null;
@@ -14,7 +17,7 @@ export function Details() {
 
   return (
     <section id="about" className="px-8 py-24">
-      <div className="mx-auto mb-16 max-w-4xl text-center">
+      <div className="mx-auto mb-16 max-w-screen-2xl">
         <FadeIn>
           <h2 className="mb-6 text-2xl font-bold">{t("details_title")}</h2>
         </FadeIn>
@@ -23,7 +26,7 @@ export function Details() {
         </FadeIn>
       </div>
       <FadeIn>
-        <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-4">
+        <div className="mx-auto flex max-w-screen-2xl flex-wrap gap-3">
           {skills.map((skillKey) => (
             <span
               key={skillKey}

@@ -13,7 +13,7 @@ export function Footer() {
 
   return (
     <footer id="footer" className="bg-surface px-14 py-14 mt-16">
-      <div className="mx-auto w-full max-w-7xl">
+      <div className="mx-auto w-full max-w-screen-2xl">
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-10">
 
           {/* Col.1 */}
@@ -86,8 +86,9 @@ export function Footer() {
           <div className="flex items-center gap-4">
             <span>{t("color_palette")}</span>
             <div className="flex -space-x-1">
-                <span className="h-3 w-3 rounded-full bg-[#6c63ff] ring-2 ring-background"></span>
-                <span className="h-3 w-3 rounded-full bg-[#ff6584] ring-2 ring-background"></span>
+                <span className="h-3 w-3 rounded-full bg-tertiary ring-2 ring-background"></span>
+                <span className="h-3 w-3 rounded-full bg-secondary ring-2 ring-background"></span>
+                <span className="h-3 w-3 rounded-full bg-primary ring-2 ring-background"></span>
             </div>
           </div>
         </div>

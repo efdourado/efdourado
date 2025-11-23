@@ -23,7 +23,7 @@ const projects = [
   {
     liveUrl: "https://fs-oslo.vercel.app",
     imageUrl: "/fs-oslo.png",
-    techStack: ["TypeScript", "Supabase", "Next.js", "Tailwind CSS"],
+    techStack: ["TypeScript", "Supabase", "Next.js"],
     titleKey: "project3_title",
     descriptionKey: "project3_description",
     githubUrl: "https://github.com/efdourado/fs-oslo",
@@ -39,7 +39,7 @@ export function Showcase() {
 
   return (
     <section id="showcase" className="px-8 pt-24 pb-6">
-      <div className="mx-auto mb-16 max-w-screen-md text-center">
+      <div className="mx-auto mb-16 max-w-screen-2xl">
         <h2 className="mb-6 text-2xl font-bold">{t("showcase_title")}</h2>
         <p className="text-text-secondary">{t("showcase_subtitle")}</p>
       </div>
