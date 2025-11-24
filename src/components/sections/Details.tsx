@@ -38,7 +38,7 @@ export function Details() {
           <FadeIn>
             <div>
               <h2 className="text-3xl font-bold mb-6">Impacto</h2>
-              <p className="text-text-secondary text-md">Meus maiores desafios superados.</p>
+              <p className="text-text-secondary text-md">Meus últimos dois desafios superados.</p>
             </div>
           </FadeIn>
           <div className="flex flex-col gap-8">
