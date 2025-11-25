@@ -9,9 +9,8 @@ export function Footer() {
     <footer
       id="footer"
       className="
-        bg-surface px-14 py-12 sm:py-14 mt-16
-        max-[400px]:px-7
-        max-[400px]:pt-24 
+        bg-surface px-3 sm:px-8 md:px-14 py-12 sm:py-14 mt-16
+        max-[400px]:pt-24
         max-[400px]:pb-6
       "
     >

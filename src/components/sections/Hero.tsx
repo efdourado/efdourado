@@ -8,9 +8,8 @@ export function Hero() {
   return (
     <section
       className="
-        relative flex flex-col justify-center px-14 pt-32 pb-10 md:pt-40
-        max-[400px]:px-7
-        max-[400px]:pt-24 
+        relative flex flex-col justify-center px-3 sm:px-8 md:px-14 pt-32 pb-10 md:pt-40
+        max-[400px]:pt-24
         max-[400px]:pb-6
       "
     >
