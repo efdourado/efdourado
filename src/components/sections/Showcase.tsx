@@ -81,7 +81,8 @@ export function Showcase() {
         ))}
       </div>
 
-      <div className="px-6 md:px-14 py-16 sm:py-20 border-b border-white/5">
+      {/* Core Tech */}
+      <div className="px-3 md:px-14 py-16 sm:py-20 border-b border-white/5">
         <div className="mx-auto w-full max-w-screen-2xl text-center">
           <FadeIn>
             <h2
@@ -92,7 +93,7 @@ export function Showcase() {
             </h2>
           </FadeIn>
 
-          <div className="flex flex-wrap justify-center gap-3 sm:gap-6 md:gap-10">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-4 md:gap-6">
             {coreTech.map((tech, index) => (
               <FadeIn key={index}>
                 <div className="group flex flex-col items-center gap-3 p-2 sm:p-3 rounded-full transition-transform hover:scale-102 cursor-default">
