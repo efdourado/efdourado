@@ -40,6 +40,13 @@
   "ux": "Experiência do Usuário",
   "ux_desc": "Tecnologia deve servir pessoas. O objetivo final é sempre melhorar a vida do usuário.",
 
+  "studies": "Estudos",
+
+  "cs_foundations": "Fundamentos de Computação",
+  "cloud_infrastructure": "Cloud & Infraestrutura",
+  "ai_ml_llms": "IA, ML & LLMs",
+  "fullstack_engineering": "Engenharia Full-Stack",
+
   "thank_you": "Obrigado por chegar até aqui!",
   "footer_subtitle": "Caso queira conversar, sinta-se à vontade para me enviar uma mensagem (estou sempre aberto a ouvir novas histórias : ):",
   "color_palette": "Paleta de cores:",

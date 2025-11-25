@@ -39,6 +39,13 @@
   "ux": "User Experience",
   "ux_desc": "Technology must serve people. The ultimate goal is always to improve the user's experience and everyday life.",
   
+  "studies": "Studies",
+
+  "cs_foundations": "Computer Science Foundations",
+  "cloud_infrastructure": "Cloud & Infrastructure",
+  "ai_ml_llms": "AI, ML & LLMs",
+  "fullstack_engineering": "Full-Stack Engineering",
+
   "thank_you": "Thanks for making it all the way here!",
   "footer_subtitle": "If you'd like to talk, feel free to send me a message (I'm always up for hearing new stories : ):",
   "color_palette": "Color palette:",
