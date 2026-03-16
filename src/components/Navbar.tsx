@@ -3,6 +3,7 @@
 import { useTheme } from "./ThemeProvider";
 import { useTranslation } from 'react-i18next';
 import { useScrollDirection } from "@/hooks/useScrollDirection";
+import Image from "next/image";
 
 export function Navbar() {
   const { theme, toggleTheme } = useTheme();
@@ -43,7 +44,15 @@ export function Navbar() {
           id="scrollToTop"
           onClick={scrollToTop}
         >
-          <span className="text-primary">❍</span>
+          <span className="text-primary">
+            <Image
+              src="/memphis-logo-grey.png"
+              alt="Memphis Logo (Grey)"
+              height={22}
+              width={22}
+              className="object-contain"
+            />
+          </span>
         </div>
       </div>
 

@@ -24,12 +24,7 @@ export function ProjectCard({
   const { t } = useTranslation();
 
   return (
-    <article
-      className="
-        group relative overflow-hidden rounded-2xl bg-surface transition-shadow duration-300 hover:shadow-xl
-        max-[400px]:rounded-xl
-      "
-    >
+    <article className="group relative overflow-hidden rounded-2xl bg-surface transition-shadow duration-300 hover:shadow-xl max-[400px]:rounded-xl">
       <a
         href={liveUrl}
         target="_blank"

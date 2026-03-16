@@ -36,7 +36,7 @@ const projects = [
   },
   {
     liveUrl: "https://fs-cairo.vercel.app",
-    imageUrl: "",
+    imageUrl: "/fs-cairo.png",
     techStack: ["Prisma", "Next.js", "Tailwind CSS"],
     titleKey: "project2_title",
     descriptionKey: "project2_description",
