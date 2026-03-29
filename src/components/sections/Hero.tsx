@@ -26,17 +26,14 @@ export function Hero() {
         </h1>
 
         <p
-          className="mb-10 md:mb-20 max-w-xl text-md md:text-lg text-text-secondary
-            max-[400px]:text-sm 
-            max-[400px]:mb-8"
+          className="mb-10 md:mb-20 max-w-2xl text-md md:text-lg text-text-secondary max-[400px]:text-sm max-[400px]:mb-8"
           suppressHydrationWarning
         >
           {t("bio")}
         </p>
 
         <div
-          className="flex flex-col items-start gap-6 md:flex-row md:items-center
-            max-[400px]:gap-4"
+          className="flex flex-col items-start gap-6 md:flex-row md:items-center max-[400px]:gap-4"
         >
           <a
             href="#showcase"
