@@ -9,7 +9,7 @@
   "showcase_subtitle": "A collection with some of my greatest projects... Click a card to access the live demo, and hover over the top-right corner (GitHub icon) to open the code!",
   "case_study": "View on GitHub",
   
-  "project1_title": "Music Platform",
+  "project1_title": "Memphis - Music & Podcast Streaming Platform",
   "project1_description": "Integrating knowledge, culture, and practice, Memphis is a scalable music platform. It uses Node.js, Express & MongoDB in a layered architecture, containerization with Docker, JWT authentication, and integration with Spotify.",
   
   "project2_title": "Food Ordering System",
@@ -23,7 +23,7 @@
 
   "services": "Services",
 
-  "full_stack_development": "Full-Stack Development",
+  "full_stack_development": "Full-Stack",
   "full_stack_development_desc": "Building complete applications; from database architecture to refined frontend experiences.",  
   "scalable_architecture": "Scalable Architecture",
   "scalable_architecture_desc": "Designing robust, production-grade systems. Focused on microservices, containerization (Docker/K8s), and query optimization for high performance.",
@@ -38,6 +38,16 @@
   "vision_360_desc": "I create original and tailored solutions that push your product forward. Code is a means, not the end — I build with ROI, purpose, and scalability in mind.",
   "ux": "User Experience",
   "ux_desc": "Technology must serve people. The ultimate goal is always to improve the user's experience and everyday life.",
+
+  "impact": "Impact",
+  "impact_desc": "My last two biggest challenges overcome.",
+
+  "trajectory1_role": "Software Engineer - Intern",
+  "trajectory1_project": "Brazilian Space Industry Catalog",
+  "trajectory1_desc": "Delivered key platform improvements, including a dynamic search-driven navigation flow, enhanced content discovery, and a real-time admin dashboard. I also reinforced governance and scalability through structured data tracking and centralized documentation… among other contributions.",
+  "trajectory2_role": "Software Engineer - Intern",
+  "trajectory2_project": "SEECDF (VGDF)",
+  "trajectory2_desc": "I developed solutions for civic engagement and data management (Next.js and TypeScript). I was responsible for building platforms ranging from interactive data analysis dashboards to proposal registration and management systems, improving communication between citizens and government and supporting strategic decision-making.",
   
   "studies": "Studies",
 
@@ -46,8 +56,7 @@
   "ai_ml_llms": "AI, ML & LLMs",
   "fullstack_engineering": "Full-Stack Engineering",
 
-  "thank_you": "Thanks for making it all the way here!",
-  "footer_subtitle": "If you'd like to talk, feel free to send me a message (I'm always up for hearing new stories : ):",
+  "thank_you": "Glad you made it this far!",
   "color_palette": "Color palette:",
   "rights_reserved": "Usage rights protected."
 }

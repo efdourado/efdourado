@@ -57,11 +57,11 @@ export function Showcase() {
   return (
     <section
       id="showcase"
-      className="px-3 sm:px-8 md:px-14 pt-20 pb-6"
+      className="px-3 sm:px-8 md:px-14 pt-20"
     >
-      <div className="mx-auto mb-12 max-w-screen-2xl sm:mb-16">
+      <div className="mx-auto mb-12 max-w-screen-xl sm:mb-16">
         <h2
-          className="mb-4 text-2xl sm:text-3xl font-bold"
+          className="mb-4 text-2xl sm:text-3xl font-light"
           suppressHydrationWarning
         >
           {t("showcase_title")}
@@ -86,7 +86,7 @@ export function Showcase() {
         <div className="mx-auto w-full max-w-screen-2xl text-center">
           <FadeIn>
             <h2
-              className="mb-8 sm:mb-12 text-2xl sm:text-3xl font-bold"
+              className="mb-8 sm:mb-12 text-2xl sm:text-3xl font-light"
               suppressHydrationWarning
             >
               {t("core_tech")}
@@ -109,7 +109,7 @@ export function Showcase() {
                     <i className={tech.icon}></i>
                   </div>
 
-                  <span className="text-xs sm:text-sm font-semibold tracking-wide text-text-secondary group-hover:text-text transition-colors">
+                  <span className="text-xs sm:text-sm font-light tracking-wide text-text-secondary group-hover:text-text transition-colors">
                     {tech.name}
                   </span>
                 </div>
@@ -119,14 +119,14 @@ export function Showcase() {
         </div>
       </div>
 
-      <div className="py-16 sm:py-20 bg-gray-200 dark:bg-black/20 overflow-hidden relative">
+      <div className="group py-16 sm:py-20 bg-gray-200 dark:bg-black/20 overflow-hidden relative">
         <div className="absolute inset-y-0 left-0 w-10 sm:w-20 md:w-40 bg-gradient-to-r from-background to-transparent z-10"></div>
         <div className="absolute inset-y-0 right-0 w-10 sm:w-20 md:w-40 bg-gradient-to-l from-background to-transparent z-10"></div>
 
-        <div className="mx-auto w-full max-w-screen-2xl mb-10 sm:mb-16">
+        <div className="mx-auto w-full max-w-screen-xl mb-10 sm:mb-16">
           <FadeIn>
             <h2
-              className="text-xl sm:text-2xl font-bold text-text-secondary border-l-4 border-secondary pl-3 sm:pl-4"
+              className="text-xl sm:text-2xl font-light text-text-secondary border-l-4 border-secondary pl-3 sm:pl-4"
               suppressHydrationWarning
             >
               {t("complete_toolkit")}
@@ -135,7 +135,7 @@ export function Showcase() {
         </div>
 
         <div className="flex mb-4 sm:mb-5 mask-linear-gradient">
-          <div className="flex flex-nowrap gap-2 sm:gap-4 animate-marquee whitespace-nowrap [animation-play-state:paused] hover:[animation-play-state:running]">
+          <div className="flex flex-nowrap gap-2 sm:gap-4 animate-marquee whitespace-nowrap [animation-play-state:paused] group-hover:[animation-play-state:running]">
             {[...allTechRow1, ...allTechRow1, ...allTechRow1].map((tech, i) => (
               <span
                 key={i}
@@ -156,7 +156,7 @@ export function Showcase() {
 
         <div className="flex mb-4 sm:mb-5 mask-linear-gradient">
           <div
-            className="flex flex-nowrap gap-2 sm:gap-4 animate-marquee whitespace-nowrap [animation-play-state:paused] hover:[animation-play-state:running]"
+            className="flex flex-nowrap gap-2 sm:gap-4 animate-marquee whitespace-nowrap [animation-play-state:paused] group-hover:[animation-play-state:running]"
             style={{ animationDirection: "reverse", animationDuration: "50s" }}
           >
             {[...allTechRow2, ...allTechRow2, ...allTechRow2].map((tech, i) => (
@@ -180,7 +180,7 @@ export function Showcase() {
 
         <div className="flex mask-linear-gradient">
           <div
-            className="flex flex-nowrap gap-2 sm:gap-4 animate-marquee whitespace-nowrap [animation-play-state:paused] hover:[animation-play-state:running]"
+            className="flex flex-nowrap gap-2 sm:gap-4 animate-marquee whitespace-nowrap [animation-play-state:paused] group-hover:[animation-play-state:running]"
             style={{ animationDuration: "30s" }}
           >
             {[...allTechRow3, ...allTechRow3, ...allTechRow3].map((tech, i) => (

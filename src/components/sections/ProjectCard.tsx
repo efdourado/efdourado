@@ -69,7 +69,7 @@ export function ProjectCard({
 
         <div className="p-4">
           <h3
-            className="mt-2 mb-5 text-xl font-semibold max-[400px]:text-lg max-[600px]:mb-4"
+            className="mt-2 mb-5 text-xl font-light max-[400px]:text-lg max-[600px]:mb-4"
             suppressHydrationWarning
           >
             {t(titleKey)}

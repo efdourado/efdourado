@@ -13,9 +13,9 @@ export function Hero() {
         max-[400px]:pb-6
       "
     >
-      <div className="mx-auto w-full max-w-screen-2xl">
+      <div className="mx-auto w-full max-w-screen-xl">
         <h1
-          className="mb-6 md:mb-8 font-bold leading-tight text-[clamp(1.7rem,6vw,3rem)]
+          className="mb-6 md:mb-8 font-light leading-tight text-[clamp(1.7rem,6vw,3rem)]
             max-[400px]:mb-4"
         >
           <span className="gradient-text" suppressHydrationWarning>
@@ -26,7 +26,7 @@ export function Hero() {
         </h1>
 
         <p
-          className="mb-10 md:mb-20 max-w-2xl text-md md:text-lg text-text-secondary max-[400px]:text-sm max-[400px]:mb-8"
+          className="mb-10 md:mb-20 max-w-2xl text-sm md:text-base font-light text-text-secondary max-[400px]:text-xs max-[400px]:mb-8"
           suppressHydrationWarning
         >
           {t("bio")}
@@ -37,7 +37,7 @@ export function Hero() {
         >
           <a
             href="#showcase"
-            className="rounded-full border-2 border-secondary bg-secondary px-6 py-3 font-semibold text-[#f5f5f5] text-sm transition-transform hover:scale-102
+            className="rounded-full border-2 border-secondary bg-secondary px-6 py-2 font-medium text-[#f5f5f5] text-sm transition-transform hover:scale-102
               max-[400px]:px-4 
               max-[400px]:py-1.5 
               max-[400px]:text-xs"
@@ -48,7 +48,7 @@ export function Hero() {
 
           <a
             href="#about"
-            className="rounded-full flex flex-row items-center border-2 border-primary pl-6 pr-3 py-3 font-semibold text-text text-sm transition-transform hover:scale-102
+            className="rounded-full flex flex-row items-center border-2 border-primary pl-6 pr-3 py-2 font-medium text-text text-sm transition-transform hover:scale-102
               max-[400px]:pl-4 
               max-[400px]:pr-2 
               max-[400px]:py-1.5
@@ -66,7 +66,7 @@ export function Hero() {
           <div className="flex gap-5 max-[400px]:gap-3">
             <a
               href="https://github.com/efdourado"
-              className="text-xl text-text-secondary transition-colors hover:text-text
+              className="text-lg text-text-secondary transition-colors hover:text-text
                 max-[400px]:text-lg"
               target="_blank"
               rel="noopener noreferrer"
@@ -75,12 +75,12 @@ export function Hero() {
             </a>
             <a
               href="https://linkedin.com/in/efdourado"
-              className="text-xl text-text-secondary transition-colors hover:text-text
+              className="text-lg text-text-secondary transition-colors hover:text-text
                 max-[400px]:text-lg"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin-in"></i>
             </a>
           </div>
         </div>

@@ -6,8 +6,8 @@ import { Providers } from "@/components/Providers";
 const inter = Inter({ subsets: ["latin"] });
 
 const siteConfig = {
-  title: "Eduardo Dourado | Full-Stack",
-  description: "Backend-focused Full-Stack Developer seeking to leverage my skills to create high-impact solutions that merge efficiency, security, and user experience.",
+  title: "Eduardo Dourado | Software Engineer",
+  description: "I'm a Full Stack Software Engineer focused on building end-to-end solutions. I design scalable, secure systems, aiming for continuous growth while identifying business needs and system bottlenecks.",
   url: "https://efdourado.vercel.app",
 };
 
@@ -15,10 +15,10 @@ export const metadata: Metadata = {
   title: siteConfig.title,
   description: siteConfig.description,
   keywords: [
-    "Desenvolvedor Full-Stack",
+    "Software Engineer",
     "Full-Stack Developer",
     "Backend",
-    "Next.js",
+    "Python",
     "TypeScript",
     "React",
     "Portfolio",

@@ -5,22 +5,18 @@ import { FadeIn } from "@/components/ui/FadeIn";
 
 const services = [
   {
-    icon: "fa-align-left",
     title: "full_stack_development",
     desc: "full_stack_development_desc",
   },
   {
-    icon: "fa-cloud",
     title: "scalable_architecture",
     desc: "scalable_architecture_desc",
   },
   {
-    icon: "fa-brain",
     title: "ai_engineering",
     desc: "ai_engineering_desc",
   },
   {
-    icon: "fa-code-commit",
     title: "ux_engineering",
     desc: "ux_engineering_desc",
 }, ];
@@ -43,11 +39,11 @@ export function Services() {
 
       {/* SERVICES */}
       <div className="px-3 sm:px-8 md:px-14 py-12 sm:py-16 border-b border-white/10">
-        <div className="mx-auto w-full max-w-screen-2xl">
+        <div className="mx-auto w-full max-w-screen-xl">
 
           <FadeIn>
             <h2
-              className="mb-10 sm:mb-12 text-2xl sm:text-3xl font-bold leading-tight"
+              className="mb-10 sm:mb-12 text-2xl sm:text-3xl font-light leading-tight"
               suppressHydrationWarning
             >
               {t("services")}
@@ -58,13 +54,8 @@ export function Services() {
             {services.map((item, index) => (
               <FadeIn key={index}>
                 <div className="group h-full rounded-2xl bg-white/5 p-4 sm:p-6 border border-white/10 hover:bg-white/10 transition-all">
-
-                  <div className="mb-4 sm:mb-6 flex h-10 w-10 sm:h-12 sm:w-12 items-center justify-center rounded-lg bg-white/10 text-white backdrop-blur-sm">
-                    <i className={`fas ${item.icon} text-lg sm:text-xl`}></i>
-                  </div>
-
                   <h3
-                    className="mb-3 sm:mb-4 text-lg sm:text-xl font-bold"
+                    className="mb-3 sm:mb-4 text-lg sm:text-xl font-light"
                     suppressHydrationWarning
                   >
                     {t(item.title)}
@@ -86,11 +77,11 @@ export function Services() {
 
       {/* PHILOSOPHY */}
       <div className="px-3 sm:px-8 md:px-14 py-14 sm:py-20 border-b border-white/10 bg-black/10">
-        <div className="mx-auto w-full max-w-screen-2xl">
+        <div className="mx-auto w-full max-w-screen-xl">
 
           <FadeIn>
             <h2
-              className="mb-10 sm:mb-12 text-2xl sm:text-3xl text-[#f5f5f5] font-bold text-right"
+              className="mb-10 sm:mb-12 text-2xl sm:text-3xl text-[#f5f5f5] font-light text-right"
               suppressHydrationWarning
             >
               {t("philosophy")}
@@ -103,7 +94,7 @@ export function Services() {
                 <div className="pl-4 sm:pl-6 border-l-2 border-[#f5f5f5] transition-colors">
 
                   <h3
-                    className="text-xl sm:text-2xl text-[#f5f5f5] font-bold mb-3 sm:mb-4"
+                    className="text-xl sm:text-2xl text-[#f5f5f5] font-light mb-3 sm:mb-4"
                     suppressHydrationWarning
                   >
                     {t(item.title)}

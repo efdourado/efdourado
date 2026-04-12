@@ -19,14 +19,14 @@
   "project3_description": "Oslo é projetado para máxima eficiência. Pratique com questões, revise seus erros e organize seu conhecimento. Construído sobre o ecossistema Next.js e TypeScript, o projeto utiliza Server Components, Server Actions, Tailwind CSS e Radix UI para ser intuitivo e responsivo, proporcionando consistência em qualquer dispositivo.",
   
   "core_tech": "Principais Tecnologias",
-  "complete_toolkit": "Arsenal Completo & Ferramentas",
+  "complete_toolkit": "Ferramentas",
 
   "services": "Especialidades",
 
 
-  "full_stack_development": "Desenvolvimento Full-Stack",
+  "full_stack_development": "Full-Stack",
   "full_stack_development_desc": "Criação de aplicações completas; da arquitetura do banco de dados ao frontend refinado.",
-  "scalable_architecture": "Arquitetura Escalável",
+  "scalable_architecture": "Escalabilidade",
   "scalable_architecture_desc": "Design de sistemas robustos. Foco em microsserviços, containerização (Docker/K8s) e otimização de queries para alta performance.",
   "ai_engineering": "Engenharia de IA & LLMs",
   "ai_engineering_desc": "Desenvolvimento de chatbots e agentes autônomos. Treinamento e fine-tuning de redes neurais para resolver problemas específicos.",
@@ -40,6 +40,16 @@
   "ux": "Experiência do Usuário",
   "ux_desc": "Tecnologia deve servir pessoas. O objetivo final é sempre melhorar a vida do usuário.",
 
+  "impact": "Impacto",
+  "impact_desc": "Meus últimos dois maiores desafios superados.",
+
+  "trajectory1_role": "Engenheiro de Software - Estagiário",
+  "trajectory1_project": "Catálogo da Indústria Espacial Brasileira",
+  "trajectory1_desc": "Entreguei melhorias importantes na plataforma, incluindo um fluxo de navegação dinâmico orientado por busca, maior capacidade de descoberta de conteúdo e um dashboard administrativo em tempo real. Também reforcei a governança e a escalabilidade por meio de rastreamento estruturado de dados e documentação centralizada… entre outras contribuições.",
+  "trajectory2_role": "Engenheiro de Software - Estagiário",
+  "trajectory2_project": "SEECDF (VGDF)",
+  "trajectory2_desc": "Desenvolvi soluções para engajamento cívico e gestão de dados (Next.js e TypeScript). Fui responsável por construir plataformas que variam desde painéis de análise de dados interativos até sistemas de registro e gestão de propostas, melhorando a comunicação entre cidadãos e governo e apoiando a tomada de decisões estratégicas.",
+
   "studies": "Estudos",
 
   "cs_foundations": "Fundamentos de Computação",
@@ -47,8 +57,7 @@
   "ai_ml_llms": "IA, ML & LLMs",
   "fullstack_engineering": "Engenharia Full-Stack",
 
-  "thank_you": "Obrigado por chegar até aqui!",
-  "footer_subtitle": "Caso queira conversar, sinta-se à vontade para me enviar uma mensagem (estou sempre aberto a ouvir novas histórias : ):",
+  "thank_you": "Obrigado por chegar aqui!",
   "color_palette": "Paleta de cores:",
   "rights_reserved": "Todos os direitos reservados."
 }
