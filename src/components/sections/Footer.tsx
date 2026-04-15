@@ -16,7 +16,7 @@ export function Footer() {
     >
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="grid gap-3 justify-center md:flex md:justify-between items-center my-3 sm:my-6">
-          <h2 className="text-[clamp(1.5rem,2vw,2.5rem)] font-light leading-tight">
+          <h2 className="text-2xl sm:text-3xl font-light leading-tight">
             <span suppressHydrationWarning>{t("thank_you")}</span>
           </h2>
 
@@ -27,6 +27,7 @@ export function Footer() {
                 className="text-sm sm:text-lg text-text-secondary transition-colors hover:text-text"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Instagram"
               >
                 <i className="fab fa-instagram"></i>
               </a>
@@ -35,6 +36,7 @@ export function Footer() {
                 className="text-sm sm:text-lg text-text-secondary transition-colors hover:text-text"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub"
               >
                 <i className="fab fa-github"></i>
               </a>
@@ -43,6 +45,7 @@ export function Footer() {
                 className="text-sm sm:text-lg text-text-secondary transition-colors hover:text-text"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
                 <i className="fab fa-linkedin-in"></i>
               </a>
@@ -52,8 +55,9 @@ export function Footer() {
                 className="text-sm sm:text-lg text-text-secondary transition-colors hover:text-text pl-4 sm:pl-5 border-l border-black/10 dark:border-white/10"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Email"
               > 
-                <i className="fas fa-envelope mr-3"></i>
+                <i className="fas fa-envelope"></i>
               </a>
             </div>
           </div>
@@ -62,7 +66,7 @@ export function Footer() {
         <div className="flex flex-col gap-4 sm:gap-0 md:flex-row justify-between items-center text-[10px] text-text-secondary border-t border-black/10 dark:border-white/10 pt-6">
 
           <p className="text-center md:text-left leading-relaxed">
-            &copy; 2025 Eduardo Dourado.{" "}
+            &copy; 2026 Eduardo Dourado.{" "}
             <span suppressHydrationWarning>{t("rights_reserved")}</span>
           </p>
 

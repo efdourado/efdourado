@@ -1,83 +1,93 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
-import { useHydration } from "@/hooks/useHydration";
 import { FadeIn } from "@/components/ui/FadeIn";
 
-const trajectory = [ {
-    role: "trajectory1_role",
-    project: "trajectory1_project",
-    desc: "trajectory1_desc",
+const experience = [
+  {
+    role: "experience1_role",
+    organization: "experience1_organization",
+    period: "experience1_period",
+    bullets: [
+      "experience1_bullet1",
+      "experience1_bullet2",
+      "experience1_bullet3",
+      "experience1_bullet4",
+      "experience1_bullet5",
+      "experience1_bullet6",
+    ],
   },
   {
-    role: "trajectory2_role",
-    project: "trajectory2_project",
-    desc: "trajectory2_desc",
-}, ];
-
-const studies = [
-  "cs_foundations",
-  "cloud_infrastructure",
-  "ai_ml_llms",
-  "fullstack_engineering"
+    role: "experience2_role",
+    organization: "experience2_organization",
+    period: "experience2_period",
+    bullets: [
+      "experience2_bullet1",
+      "experience2_bullet2",
+      "experience2_bullet3",
+      "experience2_bullet4",
+    ],
+  },
 ];
 
 export function Details() {
   const { t } = useTranslation();
-  const isMounted = useHydration();
-
-  if (!isMounted) {
-    return null;
-  }
 
   return (
-    <section id="about" className="py-24">
+    <section id="experience" className="py-24">
 
-      <div className="px-6 md:px-14 py-20 border-b border-white/10">
+      <div className="px-3 sm:px-8 md:px-14 py-20 border-y border-black/10 dark:border-white/10">
         <div className="mx-auto w-full max-w-screen-xl grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-16">
           <FadeIn>
             <div>
-              <h2 className="text-3xl font-light mb-6">{t("impact")}</h2>
-              <p className="text-text-secondary text-sm md:text-base font-light">{t("impact_desc")}</p>
+              <h2
+                className="text-3xl font-light mb-6"
+                suppressHydrationWarning
+              >
+                {t("experience_title")}
+              </h2>
+              <p
+                className="text-text-secondary text-sm md:text-base font-light"
+                suppressHydrationWarning
+              >
+                {t("experience_subtitle")}
+              </p>
             </div>
           </FadeIn>
           <div className="flex flex-col gap-8">
-            {trajectory.map((item, index) => (
+            {experience.map((item, index) => (
               <FadeIn key={index}>
-                <div className="rounded-xl bg-white/5 p-8 border border-white/5">
-                  <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
-                    <h3 className="text-xl font-light text-secondary">{t(item.project)}</h3>
-                    <span className="text-xs font-light bg-white/10 px-3 py-1 rounded-full w-fit">{t(item.role)}</span>
+                <div className="rounded-lg bg-surface p-6 border border-black/10 dark:border-white/10 sm:p-8">
+                  <div className="flex flex-col md:flex-row md:items-start justify-between mb-5 gap-3">
+                    <div>
+                      <h3
+                        className="text-xl font-light text-secondary"
+                        suppressHydrationWarning
+                      >
+                        {t(item.organization)}
+                      </h3>
+                      <p
+                        className="mt-1 text-sm text-text"
+                        suppressHydrationWarning
+                      >
+                        {t(item.role)}
+                      </p>
+                    </div>
+                    <span
+                      className="text-xs font-light bg-black/5 dark:bg-white/10 px-3 py-1 rounded-md w-fit"
+                      suppressHydrationWarning
+                    >
+                      {t(item.period)}
+                    </span>
                   </div>
-                  <p className="text-white/70 text-sm">{t(item.desc)}</p>
-                </div>
-              </FadeIn>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      <div className="px-3 sm:px-8 md:px-14 pt-12 sm:pt-16 border-t border-black/10 dark:border-white/5">
-        <div className="mx-auto w-full max-w-screen-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-8 sm:gap-10">
-
-          <FadeIn>
-            <h2
-              className="text-xl sm:text-2xl font-light"
-              suppressHydrationWarning
-            >
-              {t("studies")}
-            </h2>
-          </FadeIn>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 sm:gap-x-12 gap-y-3 sm:gap-y-4">
-            {studies.map((item, index) => (
-              <FadeIn key={index}>
-                <div className="flex items-center gap-2 sm:gap-3 text-text md:justify-end">
-                  <span className="h-1.5 w-1.5 rounded-full bg-secondary"></span>
-
-                  <span className="text-sm sm:text-base font-light">
-                    {t(item)}
-                  </span>
+                  <ul className="space-y-3 text-sm text-text-secondary">
+                    {item.bullets.map((bullet) => (
+                      <li key={bullet} className="flex gap-3">
+                        <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-secondary"></span>
+                        <span suppressHydrationWarning>{t(bullet)}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </FadeIn>
             ))}
