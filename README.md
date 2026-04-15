@@ -7,7 +7,7 @@ Experience developing data-driven platforms, designing robust architectures, and
 Strong interest in AI-powered applications, including RAG systems, embeddings, and LLM-based architectures.
 Currently seeking opportunities to build high-impact systems and grow in international environment
 
-[Portfolio (Eduardo Dourado)](https://efdourado.vercel.app/)
+[Portfolio](https://efdourado.vercel.app/)
 
 
 ### Built for performance.
