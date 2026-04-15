@@ -4,11 +4,6 @@ import { useTranslation } from "react-i18next";
 
 export function Hero() {
   const { t } = useTranslation();
-  const highlights = [
-    "hero_highlight_1",
-    "hero_highlight_2",
-    "hero_highlight_3",
-  ];
 
   return (
     <section
@@ -20,7 +15,7 @@ export function Hero() {
     >
       <div className="mx-auto w-full max-w-screen-xl">
         <h1
-          className="mb-6 max-w-4xl text-3xl font-light leading-tight text-text sm:text-4xl lg:text-5xl"
+          className="mb-6 max-w-4xl text-4xl font-light leading-tight text-text sm:text-5xl lg:text-5xl"
         >
           Eduardo Dourado
         </h1>
@@ -39,9 +34,7 @@ export function Hero() {
           {t("bio")}
         </p>
 
-        <div
-          className="flex flex-col items-start gap-6 md:flex-row md:items-center max-[400px]:gap-4"
-        >
+        <div className="flex flex-col items-start gap-6 md:flex-row md:items-center max-[400px]:gap-4">
           <a
             href="#showcase"
             className="rounded-lg border border-secondary bg-secondary px-6 py-2 font-medium text-[#f5f5f5] text-sm transition-transform hover:scale-102
@@ -51,23 +44,6 @@ export function Hero() {
             suppressHydrationWarning
           >
             {t("view_work")}
-          </a>
-
-          <a
-            href="#experience"
-            className="rounded-lg flex flex-row items-center border border-primary pl-6 pr-3 py-2 font-medium text-text text-sm transition-transform hover:scale-102
-              max-[400px]:pl-4 
-              max-[400px]:pr-2 
-              max-[400px]:py-1.5
-              max-[400px]:text-xs"
-            suppressHydrationWarning
-          >
-            {t("experience_nav")}
-            <i
-              className="far fa-circle-down text-primary text-xl ml-5
-                max-[400px]:text-lg 
-                max-[400px]:ml-3"
-            ></i>
           </a>
 
           <div className="flex gap-5 max-[400px]:gap-3">
@@ -92,19 +68,6 @@ export function Hero() {
               <i className="fab fa-linkedin-in"></i>
             </a>
           </div>
-        </div>
-
-        <div className="mt-14 grid border-y border-black/10 text-sm text-text-secondary dark:border-white/10 sm:grid-cols-3">
-          {highlights.map((item, index) => (
-            <div
-              key={item}
-              className={`py-4 font-light sm:px-5 ${
-                index > 0 ? "sm:border-l sm:border-black/10 sm:dark:border-white/10" : ""
-              }`}
-            >
-              <span suppressHydrationWarning>{t(item)}</span>
-            </div>
-          ))}
         </div>
       </div>
     </section>

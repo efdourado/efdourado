@@ -68,9 +68,6 @@ export function Navbar() {
         <a href="#showcase" className="text-text-secondary transition-colors hover:text-black/70 dark:hover:text-white/70" suppressHydrationWarning>
           {t('showcase')}
         </a>
-        <a href="#experience" className="text-text-secondary transition-colors hover:text-black/70 dark:hover:text-white/70" suppressHydrationWarning>
-          {t('experience_nav')}
-        </a>
         <a href="#footer" className="text-text-secondary transition-colors hover:text-black/70 dark:hover:text-white/70" suppressHydrationWarning>
           {t('send_message')}
         </a>

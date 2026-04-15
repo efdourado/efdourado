@@ -137,7 +137,7 @@ export function ProjectCard({
               className="inline-flex items-center gap-2 rounded-md bg-text px-4 py-2 font-medium text-background transition-transform hover:scale-102"
             >
               {t("view_live")}
-              <i className="fas fa-arrow-up-right-from-square text-xs"></i>
+              <i className="fas fa-arrow-right text-xs"></i>
             </a>
           ) : null}
 

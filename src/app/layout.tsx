@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const siteConfig = {
   title: "Eduardo Dourado | Software Engineer",
-  description: "Software engineer focused on scalable end-to-end systems, data-driven platforms, robust architectures, and AI-powered applications.",
+  description: "Software engineer portfolio showcasing selected full-stack, data, and AI projects.",
   url: "https://efdourado.vercel.app",
 };
 
