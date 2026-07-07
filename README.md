@@ -1,14 +1,14 @@
-# Hi there 👋
+## Hi there 👋
 
-I'm a Software Engineer focused on building scalable end-to-end systems.
+I'm Eduardo Dourado, a Software Engineer focused on solving complex product and data problems through reliable, scalable systems.
 
-Experience developing data-driven platforms, designing robust architectures, and improving system performance, reliability, and user experience. Worked as a full-stack developer on real-world platforms, delivering features such as search-driven navigation, real-time dashboards, and structured data systems.
+I build full-stack applications where backend architecture, user experience, data modeling, automation, and integrations need to work together.
 
-Strong interest in AI-powered applications, including RAG systems, embeddings, and LLM-based architectures. Currently seeking opportunities to build high-impact systems and grow in international environment
+My work has involved transforming fragmented workflows into structured platforms for search, analytics, document intelligence, secure onboarding, internal operations, and decision support.
+
+
+[Portfolio 🔗](https://efdourado.vercel.app/)
 
 ---
-
-[Portfolio](https://efdourado.vercel.app/)
-
 
 ### Built for performance.
