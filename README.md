@@ -8,7 +8,3 @@ My work has involved transforming fragmented workflows into structured platforms
 
 
 [Portfolio 🔗](https://efdourado.vercel.app/)
-
----
-
-### Built for performance.
